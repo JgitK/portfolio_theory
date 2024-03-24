@@ -1,0 +1,18 @@
+"0","sec_df <- read_csv(""/Users/jackson/Documents/finance/data/big_stock_sectors.csv"")"
+"2","[1mRows: [22m[34m6103[39m [1mColumns: [22m[34m5[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m───────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (5): Ticker, Name, Description, Mrkt Cap, Sector"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","indus_df <- sec_df |> filter(Sector == ""Industrial"")"
+"0","health_df <- sec_df |> filter(Sector == ""Healthcare"")"
+"0","it_df <- sec_df |> filter(Sector == ""Information Technology"")"
+"0","comm_df <- sec_df |> filter(Sector == ""Communications"")"
+"0","staples_df <- sec_df |> filter(Sector == ""Staples"")"
+"0","discr_df <- sec_df |> filter(Sector == ""Discretionary"")"
+"0","util_df <- sec_df |> filter(Sector == ""Utilities"")"
+"0","fin_df <- sec_df |> filter(Sector == ""Financial"")"
+"0","restate_df <- sec_df |> filter(Sector == ""Real Estate"")"
+"0","energy_df <- sec_df |> filter(Sector == ""Energy"")"

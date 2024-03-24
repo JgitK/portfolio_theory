@@ -1,0 +1,112 @@
+
+```{r}
+library(dplyr)
+library(lubridate)
+library(stringr)
+library(readr)
+#library(yahoofinancer)
+library(ggplot2)
+library(quantmod)
+library(tidyquant)
+library(purrr)
+library(tidyverse)
+
+PATH <- "/Users/jackson/Documents/finance/data/stocks/"
+```
+
+```{r}
+
+```
+
+# Function that saves stock data to CSV (tidyquant)
+```{r}
+save_to_csv_from_yahoo <- function(ticker, syear, smonth, sday, eyear, emonth, eday) {
+  
+  #Defines time period to use
+  start <- as.Date(paste(syear, smonth, sday, sep = "-"))
+  end <- as.Date(paste(eyear, emonth, eday, sep = "-"))
+  
+  #Reads data into dataframe
+  df <- tq_get(ticker, get = "stock.prices", from = start, to = end)
+  
+  ticker <- as.character(ticker)
+
+  #Saves data to csv
+  write_csv(df, file = paste0("/Users/jackson/Documents/finance/data/stocks/", ticker, ".csv"))
+  
+  return(df)
+
+}
+
+```
+
+# Function that Returns a Dataframe from a CSV
+```{r}
+get_df_from_csv <- function(path) {
+  
+  tryCatch({
+    df <- read_csv(path)
+  }, error = function(e) {
+    print("File Doesn't Exist")
+    df <- NULL
+  })
+  
+  return(df)
+}
+
+
+```
+
+# Get Column from a CSV
+```{r}
+get_column_from_csv <- function(file, col_name) {
+ 
+  tryCatch({
+    df <- read_csv(file)
+    column <- df[[col_name]]
+    return(column)
+  }, error = function(e) {
+    print("File Doesn't Exist")
+  })
+}
+```
+
+# Get tickers
+```{r}
+tickers <- get_column_from_csv("/Users/jackson/Documents/finance/data/Wilshire-5000-Stocks-New.csv", "Ticker")
+```
+
+# Download all stock data:
+```{r}
+tickers |>
+  map(possibly(\(ticker) save_to_csv_from_yahoo(ticker, 2015, 1, 1, 2024, 3, 15), NULL))
+```
+
+#Read in stock data
+```{r, message=F}
+
+paths <- list.files("/Users/jackson/Documents/finance/data/stocks/", pattern = "[.]csv$", full.names = T)
+
+
+stock_data <- paths |>
+  set_names(basename) |>
+  map(readr::read_csv)
+length(stock_data)
+View(stock_data_returns)
+
+test <- "/Users/jackson/Documents/finance/data/stocks/AAPL.csv" |>
+  set_names(basename) |>
+  map(get_df_from_csv) |>
+  list_rbind()
+
+```
+
+# Download all industry stock data:
+```{r}
+
+tickers_indus <- get_column_from_csv("/Users/jackson/Documents/finance/data/big_stock_sectors.csv", "Ticker")
+
+tickers_indus |>
+  map(possibly(\(ticker) save_to_csv_from_yahoo(ticker, 2015, 1, 1, 2024, 3, 15), NULL))
+
+```

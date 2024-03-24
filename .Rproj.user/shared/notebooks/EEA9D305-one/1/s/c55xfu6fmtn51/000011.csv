@@ -1,0 +1,8 @@
+"0","#Bind rows?
+list_rbind(stock_data)
+"
+"1","[1m[33mError[39m in `list_rbind()`:[22m
+[33m![39m Can't combine `..854$symbol` <character> and `..855$symbol` <logical>.
+Backtrace:
+[90m 1. [39m[1m[94mpurrr::list_rbind([39m[22mstock_data[1m[94m)[39m[22m
+"

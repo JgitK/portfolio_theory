@@ -1,0 +1,5 @@
+"0","industrial <- indus_top_returns(indus_df, 20)
+"
+"2","Error in indus_top_returns(indus_df, 20) : 
+  could not find function ""indus_top_returns""
+"

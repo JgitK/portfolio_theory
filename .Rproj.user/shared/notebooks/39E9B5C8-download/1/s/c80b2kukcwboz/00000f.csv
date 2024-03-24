@@ -1,0 +1,2124 @@
+"0","tickers |>
+  map(possibly(\(ticker) save_to_csv_from_yahoo(ticker, 2015, 1, 1, 2024, 3, 15), NULL))
+"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","Warning: x = 'AAWW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AAWW"", env = <environment>, verbose = FALSE, : Unable to import “AAWW”.
+HTTP error 404.
+"
+"2","Warning: x = 'AAXN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AAXN"", env = <environment>, verbose = FALSE, : Unable to import “AAXN”.
+HTTP error 404.
+"
+"2","Warning: x = 'ABC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ABC"", env = <environment>, verbose = FALSE, : Unable to import “ABC”.
+HTTP error 404.
+"
+"2","Warning: x = 'ABTX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ABTX"", env = <environment>, verbose = FALSE, : Unable to import “ABTX”.
+HTTP error 404.
+"
+"2","Warning: x = 'ACBI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ACBI"", env = <environment>, verbose = FALSE, : Unable to import “ACBI”.
+HTTP error 404.
+"
+"2","Warning: x = 'ACC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ACC"", env = <environment>, verbose = FALSE, : Unable to import “ACC”.
+HTTP error 404.
+"
+"2","Warning: x = 'ACER', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ACER"", env = <environment>, verbose = FALSE, : Unable to import “ACER”.
+HTTP error 404.
+"
+"2","Warning: x = 'ACIA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ACIA"", env = <environment>, verbose = FALSE, : Unable to import “ACIA”.
+HTTP error 404.
+"
+"2","Warning: x = 'ACRX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ACRX"", env = <environment>, verbose = FALSE, : Unable to import “ACRX”.
+HTTP error 404.
+"
+"2","Warning: x = 'ACY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ACY"", env = <environment>, verbose = FALSE, : Unable to import “ACY”.
+HTTP error 404.
+"
+"2","Warning: x = 'ADMP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ADMP"", env = <environment>, verbose = FALSE, : Unable to import “ADMP”.
+HTTP error 404.
+"
+"2","Warning: x = 'ADMS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ADMS"", env = <environment>, verbose = FALSE, : Unable to import “ADMS”.
+HTTP error 404.
+"
+"2","Warning: x = 'ADRO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ADRO"", env = <environment>, verbose = FALSE, : Unable to import “ADRO”.
+HTTP error 404.
+"
+"2","Warning: x = 'ADS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ADS"", env = <environment>, verbose = FALSE, : Unable to import “ADS”.
+HTTP error 404.
+"
+"2","Warning: x = 'ADSW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ADSW"", env = <environment>, verbose = FALSE, : Unable to import “ADSW”.
+HTTP error 404.
+"
+"2","Warning: x = 'AEGN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AEGN"", env = <environment>, verbose = FALSE, : Unable to import “AEGN”.
+HTTP error 404.
+"
+"2","Warning: x = 'AERI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AERI"", env = <environment>, verbose = FALSE, : Unable to import “AERI”.
+HTTP error 404.
+"
+"2","Warning: x = 'AFH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AFH"", env = <environment>, verbose = FALSE, : Unable to import “AFH”.
+HTTP error 404.
+"
+"2","Warning: x = 'AFI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AFI"", env = <environment>, verbose = FALSE, : Unable to import “AFI”.
+HTTP error 404.
+"
+"2","Warning: x = 'AFIN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AFIN"", env = <environment>, verbose = FALSE, : Unable to import “AFIN”.
+HTTP error 404.
+"
+"2","Warning: x = 'AGFS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AGFS"", env = <environment>, verbose = FALSE, : Unable to import “AGFS”.
+HTTP error 404.
+"
+"2","Warning: x = 'AGLE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AGLE"", env = <environment>, verbose = FALSE, : Unable to import “AGLE”.
+HTTP error 404.
+"
+"2","Warning: x = 'AGTC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AGTC"", env = <environment>, verbose = FALSE, : Unable to import “AGTC”.
+HTTP error 404.
+"
+"2","Warning: x = 'AHC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AHC"", env = <environment>, verbose = FALSE, : Unable to import “AHC”.
+HTTP error 404.
+"
+"2","Warning: x = 'AIMC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AIMC"", env = <environment>, verbose = FALSE, : Unable to import “AIMC”.
+HTTP error 404.
+"
+"2","Warning: x = 'AIMT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AIMT"", env = <environment>, verbose = FALSE, : Unable to import “AIMT”.
+HTTP error 404.
+"
+"2","Warning: x = 'AJRD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AJRD"", env = <environment>, verbose = FALSE, : Unable to import “AJRD”.
+HTTP error 404.
+"
+"2","Warning: x = 'AKCA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AKCA"", env = <environment>, verbose = FALSE, : Unable to import “AKCA”.
+HTTP error 404.
+"
+"2","Warning: x = 'AKER', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AKER"", env = <environment>, verbose = FALSE, : Unable to import “AKER”.
+HTTP error 404.
+"
+"2","Warning: x = 'ALBO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ALBO"", env = <environment>, verbose = FALSE, : Unable to import “ALBO”.
+HTTP error 404.
+"
+"2","Warning: x = 'ALJJ', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ALJJ"", env = <environment>, verbose = FALSE, : Unable to import “ALJJ”.
+HTTP error 404.
+"
+"2","Warning: x = 'ALNA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ALNA"", env = <environment>, verbose = FALSE, : Unable to import “ALNA”.
+HTTP error 404.
+"
+"2","Warning: x = 'ALSK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ALSK"", env = <environment>, verbose = FALSE, : Unable to import “ALSK”.
+HTTP error 404.
+"
+"2","Warning: x = 'ALXN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ALXN"", env = <environment>, verbose = FALSE, : Unable to import “ALXN”.
+HTTP error 404.
+"
+"2","Warning: x = 'AMAG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AMAG"", env = <environment>, verbose = FALSE, : Unable to import “AMAG”.
+HTTP error 404.
+"
+"2","Warning: x = 'AMOT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AMOT"", env = <environment>, verbose = FALSE, : Unable to import “AMOT”.
+HTTP error 404.
+"
+"2","Warning: x = 'AMRB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AMRB"", env = <environment>, verbose = FALSE, : Unable to import “AMRB”.
+HTTP error 404.
+"
+"2","Warning: x = 'AMRS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AMRS"", env = <environment>, verbose = FALSE, : Unable to import “AMRS”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'ANAT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ANAT"", env = <environment>, verbose = FALSE, : Unable to import “ANAT”.
+HTTP error 404.
+"
+"2","Warning: x = 'ANH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ANH"", env = <environment>, verbose = FALSE, : Unable to import “ANH”.
+HTTP error 404.
+"
+"2","Warning: x = 'ANTM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ANTM"", env = <environment>, verbose = FALSE, : Unable to import “ANTM”.
+HTTP error 404.
+"
+"2","Warning: x = 'APEN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""APEN"", env = <environment>, verbose = FALSE, : Unable to import “APEN”.
+HTTP error 404.
+"
+"2","Warning: x = 'APRN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""APRN"", env = <environment>, verbose = FALSE, : Unable to import “APRN”.
+HTTP error 404.
+"
+"2","Warning: x = 'APTS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""APTS"", env = <environment>, verbose = FALSE, : Unable to import “APTS”.
+HTTP error 404.
+"
+"2","Warning: x = 'AQUA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AQUA"", env = <environment>, verbose = FALSE, : Unable to import “AQUA”.
+HTTP error 404.
+"
+"2","Warning: x = 'ARA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ARA"", env = <environment>, verbose = FALSE, : Unable to import “ARA”.
+HTTP error 404.
+"
+"2","Warning: x = 'ARGO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ARGO"", env = <environment>, verbose = FALSE, : Unable to import “ARGO”.
+HTTP error 404.
+"
+"2","Warning: x = 'ARNA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ARNA"", env = <environment>, verbose = FALSE, : Unable to import “ARNA”.
+HTTP error 404.
+"
+"2","Warning: x = 'ARNC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ARNC"", env = <environment>, verbose = FALSE, : Unable to import “ARNC”.
+HTTP error 404.
+"
+"2","Warning: x = 'ARPO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ARPO"", env = <environment>, verbose = FALSE, : Unable to import “ARPO”.
+HTTP error 404.
+"
+"2","Warning: x = 'ASFI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ASFI"", env = <environment>, verbose = FALSE, : Unable to import “ASFI”.
+HTTP error 404.
+"
+"2","Warning: x = 'ASNA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ASNA"", env = <environment>, verbose = FALSE, : Unable to import “ASNA”.
+HTTP error 404.
+"
+"2","Warning: x = 'ATH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ATH"", env = <environment>, verbose = FALSE, : Unable to import “ATH”.
+HTTP error 404.
+"
+"2","Warning: x = 'ATHX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ATHX"", env = <environment>, verbose = FALSE, : Unable to import “ATHX”.
+HTTP error 404.
+"
+"2","Warning: x = 'ATNX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ATNX"", env = <environment>, verbose = FALSE, : Unable to import “ATNX”.
+HTTP error 404.
+"
+"2","Warning: x = 'ATRS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ATRS"", env = <environment>, verbose = FALSE, : Unable to import “ATRS”.
+HTTP error 404.
+"
+"2","Warning: x = 'ATVI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ATVI"", env = <environment>, verbose = FALSE, : Unable to import “ATVI”.
+HTTP error 404.
+"
+"2","Warning: x = 'AUTO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AUTO"", env = <environment>, verbose = FALSE, : Unable to import “AUTO”.
+HTTP error 404.
+"
+"2","Warning: x = 'AVEO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AVEO"", env = <environment>, verbose = FALSE, : Unable to import “AVEO”.
+HTTP error 404.
+"
+"2","Warning: x = 'AVID', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AVID"", env = <environment>, verbose = FALSE, : Unable to import “AVID”.
+HTTP error 404.
+"
+"2","Warning: x = 'AVLR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AVLR"", env = <environment>, verbose = FALSE, : Unable to import “AVLR”.
+HTTP error 404.
+"
+"2","Warning: x = 'AVYA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AVYA"", env = <environment>, verbose = FALSE, : Unable to import “AVYA”.
+HTTP error 404.
+"
+"2","Warning: x = 'AWSM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AWSM"", env = <environment>, verbose = FALSE, : Unable to import “AWSM”.
+HTTP error 404.
+"
+"2","Warning: x = 'AXAS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AXAS"", env = <environment>, verbose = FALSE, : Unable to import “AXAS”.
+HTTP error 404.
+"
+"2","Warning: x = 'AXE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""AXE"", env = <environment>, verbose = FALSE, : Unable to import “AXE”.
+HTTP error 404.
+"
+"2","Warning: x = 'BASI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BASI"", env = <environment>, verbose = FALSE, : Unable to import “BASI”.
+HTTP error 404.
+"
+"2","Warning: x = 'BBBY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BBBY"", env = <environment>, verbose = FALSE, : Unable to import “BBBY”.
+HTTP error 404.
+"
+"2","Warning: x = 'BCEI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BCEI"", env = <environment>, verbose = FALSE, : Unable to import “BCEI”.
+HTTP error 404.
+"
+"2","Warning: x = 'BCOR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BCOR"", env = <environment>, verbose = FALSE, : Unable to import “BCOR”.
+HTTP error 404.
+"
+"2","Warning: x = 'BDGE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BDGE"", env = <environment>, verbose = FALSE, : Unable to import “BDGE”.
+HTTP error 404.
+"
+"2","Warning: x = 'BGCP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BGCP"", env = <environment>, verbose = FALSE, : Unable to import “BGCP”.
+HTTP error 404.
+"
+"2","Warning: x = 'BIOC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BIOC"", env = <environment>, verbose = FALSE, : Unable to import “BIOC”.
+HTTP error 404.
+"
+"2","Warning: x = 'BKI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BKI"", env = <environment>, verbose = FALSE, : Unable to import “BKI”.
+HTTP error 404.
+"
+"2","Warning: x = 'BLL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BLL"", env = <environment>, verbose = FALSE, : Unable to import “BLL”.
+HTTP error 404.
+"
+"2","Warning: x = 'BMCH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BMCH"", env = <environment>, verbose = FALSE, : Unable to import “BMCH”.
+HTTP error 404.
+"
+"2","Warning: x = 'BMTC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BMTC"", env = <environment>, verbose = FALSE, : Unable to import “BMTC”.
+HTTP error 404.
+"
+"2","Warning: x = 'BNFT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BNFT"", env = <environment>, verbose = FALSE, : Unable to import “BNFT”.
+HTTP error 404.
+"
+"2","Warning: x = 'BOCH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BOCH"", env = <environment>, verbose = FALSE, : Unable to import “BOCH”.
+HTTP error 404.
+"
+"2","Warning: x = 'BOMN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BOMN"", env = <environment>, verbose = FALSE, : Unable to import “BOMN”.
+HTTP error 404.
+"
+"2","Warning: x = 'BPFH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BPFH"", env = <environment>, verbose = FALSE, : Unable to import “BPFH”.
+HTTP error 404.
+"
+"2","Warning: x = 'BREW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BREW"", env = <environment>, verbose = FALSE, : Unable to import “BREW”.
+HTTP error 404.
+"
+"2","Warning: x = 'BRG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BRG"", env = <environment>, verbose = FALSE, : Unable to import “BRG”.
+HTTP error 404.
+"
+"2","Warning: x = 'BRKS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BRKS"", env = <environment>, verbose = FALSE, : Unable to import “BRKS”.
+HTTP error 404.
+"
+"2","Warning: x = 'BSQR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BSQR"", env = <environment>, verbose = FALSE, : Unable to import “BSQR”.
+HTTP error 404.
+"
+"2","Warning: x = 'BSTC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BSTC"", env = <environment>, verbose = FALSE, : Unable to import “BSTC”.
+HTTP error 404.
+"
+"2","Warning: x = 'BTN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BTN"", env = <environment>, verbose = FALSE, : Unable to import “BTN”.
+HTTP error 404.
+"
+"2","Warning: x = 'BXS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""BXS"", env = <environment>, verbose = FALSE, : Unable to import “BXS”.
+HTTP error 404.
+"
+"2","Warning: x = 'CAI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CAI"", env = <environment>, verbose = FALSE, : Unable to import “CAI”.
+HTTP error 404.
+"
+"2","Warning: x = 'CATB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CATB"", env = <environment>, verbose = FALSE, : Unable to import “CATB”.
+HTTP error 404.
+"
+"2","Warning: x = 'CATM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CATM"", env = <environment>, verbose = FALSE, : Unable to import “CATM”.
+HTTP error 404.
+"
+"2","Warning: x = 'CATS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CATS"", env = <environment>, verbose = FALSE, : Unable to import “CATS”.
+HTTP error 404.
+"
+"2","Warning: x = 'CBB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CBB"", env = <environment>, verbose = FALSE, : Unable to import “CBB”.
+HTTP error 404.
+"
+"2","Warning: x = 'CBIO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CBIO"", env = <environment>, verbose = FALSE, : Unable to import “CBIO”.
+HTTP error 404.
+"
+"2","Warning: x = 'CBLI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CBLI"", env = <environment>, verbose = FALSE, : Unable to import “CBLI”.
+HTTP error 404.
+"
+"2","Warning: x = 'CBMG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CBMG"", env = <environment>, verbose = FALSE, : Unable to import “CBMG”.
+HTTP error 404.
+"
+"2","Warning: x = 'CBTX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CBTX"", env = <environment>, verbose = FALSE, : Unable to import “CBTX”.
+HTTP error 404.
+"
+"2","Warning: x = 'CCF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CCF"", env = <environment>, verbose = FALSE, : Unable to import “CCF”.
+HTTP error 404.
+"
+"2","Warning: x = 'CCMP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CCMP"", env = <environment>, verbose = FALSE, : Unable to import “CCMP”.
+HTTP error 404.
+"
+"2","Warning: x = 'CCXI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CCXI"", env = <environment>, verbose = FALSE, : Unable to import “CCXI”.
+HTTP error 404.
+"
+"2","Warning: x = 'CDEV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CDEV"", env = <environment>, verbose = FALSE, : Unable to import “CDEV”.
+HTTP error 404.
+"
+"2","Warning: x = 'CDK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CDK"", env = <environment>, verbose = FALSE, : Unable to import “CDK”.
+HTTP error 404.
+"
+"2","Warning: x = 'CDR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CDR"", env = <environment>, verbose = FALSE, : Unable to import “CDR”.
+HTTP error 404.
+"
+"2","Warning: x = 'CECE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CECE"", env = <environment>, verbose = FALSE, : Unable to import “CECE”.
+HTTP error 404.
+"
+"2","Warning: x = 'CEMI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CEMI"", env = <environment>, verbose = FALSE, : Unable to import “CEMI”.
+HTTP error 404.
+"
+"2","Warning: x = 'CERC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CERC"", env = <environment>, verbose = FALSE, : Unable to import “CERC”.
+HTTP error 404.
+"
+"2","Warning: x = 'CERN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CERN"", env = <environment>, verbose = FALSE, : Unable to import “CERN”.
+HTTP error 404.
+"
+"2","Warning: x = 'CETV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CETV"", env = <environment>, verbose = FALSE, : Unable to import “CETV”.
+HTTP error 404.
+"
+"2","Warning: x = 'CFMS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CFMS"", env = <environment>, verbose = FALSE, : Unable to import “CFMS”.
+HTTP error 404.
+"
+"2","Warning: x = 'CFX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CFX"", env = <environment>, verbose = FALSE, : Unable to import “CFX”.
+HTTP error 404.
+"
+"2","Warning: x = 'CGIX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CGIX"", env = <environment>, verbose = FALSE, : Unable to import “CGIX”.
+HTTP error 404.
+"
+"2","Warning: x = 'CHAP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CHAP"", env = <environment>, verbose = FALSE, : Unable to import “CHAP”.
+HTTP error 404.
+"
+"2","Warning: x = 'CHMA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CHMA"", env = <environment>, verbose = FALSE, : Unable to import “CHMA”.
+HTTP error 404.
+"
+"2","Warning: x = 'CHS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CHS"", env = <environment>, verbose = FALSE, : Unable to import “CHS”.
+HTTP error 404.
+"
+"2","Warning: x = 'CIDM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CIDM"", env = <environment>, verbose = FALSE, : Unable to import “CIDM”.
+HTTP error 404.
+"
+"2","Warning: x = 'CIR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CIR"", env = <environment>, verbose = FALSE, : Unable to import “CIR”.
+HTTP error 404.
+"
+"2","Warning: x = 'CIT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CIT"", env = <environment>, verbose = FALSE, : Unable to import “CIT”.
+HTTP error 404.
+"
+"2","Warning: x = 'CKH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CKH"", env = <environment>, verbose = FALSE, : Unable to import “CKH”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLBS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLBS"", env = <environment>, verbose = FALSE, : Unable to import “CLBS”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLCT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLCT"", env = <environment>, verbose = FALSE, : Unable to import “CLCT”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLDR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLDR"", env = <environment>, verbose = FALSE, : Unable to import “CLDR”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLGX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLGX"", env = <environment>, verbose = FALSE, : Unable to import “CLGX”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLI"", env = <environment>, verbose = FALSE, : Unable to import “CLI”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLNC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLNC"", env = <environment>, verbose = FALSE, : Unable to import “CLNC”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLNY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLNY"", env = <environment>, verbose = FALSE, : Unable to import “CLNY”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLR"", env = <environment>, verbose = FALSE, : Unable to import “CLR”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLSN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLSN"", env = <environment>, verbose = FALSE, : Unable to import “CLSN”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLUB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLUB"", env = <environment>, verbose = FALSE, : Unable to import “CLUB”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLVS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLVS"", env = <environment>, verbose = FALSE, : Unable to import “CLVS”.
+HTTP error 404.
+"
+"2","Warning: x = 'CLXT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CLXT"", env = <environment>, verbose = FALSE, : Unable to import “CLXT”.
+HTTP error 404.
+"
+"2","Warning: x = 'CMD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CMD"", env = <environment>, verbose = FALSE, : Unable to import “CMD”.
+HTTP error 404.
+"
+"2","Warning: x = 'CMO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CMO"", env = <environment>, verbose = FALSE, : Unable to import “CMO”.
+HTTP error 404.
+"
+"2","Warning: x = 'CNBKA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CNBKA"", env = <environment>, verbose = FALSE, : Unable to import “CNBKA”.
+HTTP error 404.
+"
+"2","Warning: x = 'CNCE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CNCE"", env = <environment>, verbose = FALSE, : Unable to import “CNCE”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'COG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""COG"", env = <environment>, verbose = FALSE, : Unable to import “COG”.
+HTTP error 404.
+"
+"2","Warning: x = 'CONE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CONE"", env = <environment>, verbose = FALSE, : Unable to import “CONE”.
+HTTP error 404.
+"
+"2","Warning: x = 'CORE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CORE"", env = <environment>, verbose = FALSE, : Unable to import “CORE”.
+HTTP error 404.
+"
+"2","Warning: x = 'COUP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""COUP"", env = <environment>, verbose = FALSE, : Unable to import “COUP”.
+HTTP error 404.
+"
+"2","Warning: x = 'COWN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""COWN"", env = <environment>, verbose = FALSE, : Unable to import “COWN”.
+HTTP error 404.
+"
+"2","Warning: x = 'CPLG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CPLG"", env = <environment>, verbose = FALSE, : Unable to import “CPLG”.
+HTTP error 404.
+"
+"2","Warning: x = 'CPST', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CPST"", env = <environment>, verbose = FALSE, : Unable to import “CPST”.
+HTTP error 404.
+"
+"2","Warning: x = 'CREE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CREE"", env = <environment>, verbose = FALSE, : Unable to import “CREE”.
+HTTP error 404.
+"
+"2","Warning: x = 'CRTX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CRTX"", env = <environment>, verbose = FALSE, : Unable to import “CRTX”.
+HTTP error 404.
+"
+"2","Warning: x = 'CRY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CRY"", env = <environment>, verbose = FALSE, : Unable to import “CRY”.
+HTTP error 404.
+"
+"2","Warning: x = 'CSII', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CSII"", env = <environment>, verbose = FALSE, : Unable to import “CSII”.
+HTTP error 404.
+"
+"2","Warning: x = 'CSLT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CSLT"", env = <environment>, verbose = FALSE, : Unable to import “CSLT”.
+HTTP error 404.
+"
+"2","Warning: x = 'CSOD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CSOD"", env = <environment>, verbose = FALSE, : Unable to import “CSOD”.
+HTTP error 404.
+"
+"2","Warning: x = 'CSU', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CSU"", env = <environment>, verbose = FALSE, : Unable to import “CSU”.
+HTTP error 404.
+"
+"2","Warning: x = 'CTB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CTB"", env = <environment>, verbose = FALSE, : Unable to import “CTB”.
+HTTP error 404.
+"
+"2","Warning: x = 'CTG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CTG"", env = <environment>, verbose = FALSE, : Unable to import “CTG”.
+HTTP error 404.
+"
+"2","Warning: x = 'CTIB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CTIB"", env = <environment>, verbose = FALSE, : Unable to import “CTIB”.
+HTTP error 404.
+"
+"2","Warning: x = 'CTIC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CTIC"", env = <environment>, verbose = FALSE, : Unable to import “CTIC”.
+HTTP error 404.
+"
+"2","Warning: x = 'CTL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CTL"", env = <environment>, verbose = FALSE, : Unable to import “CTL”.
+HTTP error 404.
+"
+"2","Warning: x = 'CTT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CTT"", env = <environment>, verbose = FALSE, : Unable to import “CTT”.
+HTTP error 404.
+"
+"2","Warning: x = 'CTXS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CTXS"", env = <environment>, verbose = FALSE, : Unable to import “CTXS”.
+HTTP error 404.
+"
+"2","Warning: x = 'CUB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CUB"", env = <environment>, verbose = FALSE, : Unable to import “CUB”.
+HTTP error 404.
+"
+"2","Warning: x = 'CVA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CVA"", env = <environment>, verbose = FALSE, : Unable to import “CVA”.
+HTTP error 404.
+"
+"2","Warning: x = 'CVIA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CVIA"", env = <environment>, verbose = FALSE, : Unable to import “CVIA”.
+HTTP error 404.
+"
+"2","Warning: x = 'CVTI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CVTI"", env = <environment>, verbose = FALSE, : Unable to import “CVTI”.
+HTTP error 404.
+"
+"2","Warning: x = 'CXO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CXO"", env = <environment>, verbose = FALSE, : Unable to import “CXO”.
+HTTP error 404.
+"
+"2","Warning: x = 'CXP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CXP"", env = <environment>, verbose = FALSE, : Unable to import “CXP”.
+HTTP error 404.
+"
+"2","Warning: x = 'CYBE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CYBE"", env = <environment>, verbose = FALSE, : Unable to import “CYBE”.
+HTTP error 404.
+"
+"2","Warning: x = 'CYTR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CYTR"", env = <environment>, verbose = FALSE, : Unable to import “CYTR”.
+HTTP error 404.
+"
+"2","Warning: x = 'DISCA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DISCA"", env = <environment>, verbose = FALSE, : Unable to import “DISCA”.
+HTTP error 404.
+"
+"2","Warning: x = 'DISCK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DISCK"", env = <environment>, verbose = FALSE, : Unable to import “DISCK”.
+HTTP error 404.
+"
+"2","Warning: x = 'DISH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DISH"", env = <environment>, verbose = FALSE, : Unable to import “DISH”.
+HTTP error 404.
+"
+"2","Warning: x = 'DLPH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DLPH"", env = <environment>, verbose = FALSE, : Unable to import “DLPH”.
+HTTP error 404.
+"
+"2","Warning: x = 'DNKN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DNKN"", env = <environment>, verbose = FALSE, : Unable to import “DNKN”.
+HTTP error 404.
+"
+"2","Warning: x = 'DNR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DNR"", env = <environment>, verbose = FALSE, : Unable to import “DNR”.
+HTTP error 404.
+"
+"2","Warning: x = 'DRAD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DRAD"", env = <environment>, verbose = FALSE, : Unable to import “DRAD”.
+HTTP error 404.
+"
+"2","Warning: x = 'DRE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DRE"", env = <environment>, verbose = FALSE, : Unable to import “DRE”.
+HTTP error 404.
+"
+"2","Warning: x = 'DRNA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DRNA"", env = <environment>, verbose = FALSE, : Unable to import “DRNA”.
+HTTP error 404.
+"
+"2","Warning: x = 'DS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DS"", env = <environment>, verbose = FALSE, : Unable to import “DS”.
+HTTP error 404.
+"
+"2","Warning: x = 'DSPG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DSPG"", env = <environment>, verbose = FALSE, : Unable to import “DSPG”.
+HTTP error 404.
+"
+"2","Warning: x = 'DVD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""DVD"", env = <environment>, verbose = FALSE, : Unable to import “DVD”.
+HTTP error 404.
+"
+"2","Warning: x = 'EBIX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EBIX"", env = <environment>, verbose = FALSE, : Unable to import “EBIX”.
+HTTP error 404.
+"
+"2","Warning: x = 'EBSB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EBSB"", env = <environment>, verbose = FALSE, : Unable to import “EBSB”.
+HTTP error 404.
+"
+"2","Warning: x = 'ECHO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ECHO"", env = <environment>, verbose = FALSE, : Unable to import “ECHO”.
+HTTP error 404.
+"
+"2","Warning: x = 'ECOL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ECOL"", env = <environment>, verbose = FALSE, : Unable to import “ECOL”.
+HTTP error 404.
+"
+"2","Warning: x = 'ECOM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ECOM"", env = <environment>, verbose = FALSE, : Unable to import “ECOM”.
+HTTP error 404.
+"
+"2","Warning: x = 'EGOV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EGOV"", env = <environment>, verbose = FALSE, : Unable to import “EGOV”.
+HTTP error 404.
+"
+"2","Warning: x = 'EIDX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EIDX"", env = <environment>, verbose = FALSE, : Unable to import “EIDX”.
+HTTP error 404.
+"
+"2","Warning: x = 'EIGI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EIGI"", env = <environment>, verbose = FALSE, : Unable to import “EIGI”.
+HTTP error 404.
+"
+"2","Warning: x = 'ELGX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ELGX"", env = <environment>, verbose = FALSE, : Unable to import “ELGX”.
+HTTP error 404.
+"
+"2","Warning: x = 'ELVT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ELVT"", env = <environment>, verbose = FALSE, : Unable to import “ELVT”.
+HTTP error 404.
+"
+"2","Warning: x = 'ELY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ELY"", env = <environment>, verbose = FALSE, : Unable to import “ELY”.
+HTTP error 404.
+"
+"2","Warning: x = 'EMAN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EMAN"", env = <environment>, verbose = FALSE, : Unable to import “EMAN”.
+HTTP error 404.
+"
+"2","Warning: x = 'EMCF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EMCF"", env = <environment>, verbose = FALSE, : Unable to import “EMCF”.
+HTTP error 404.
+"
+"2","Warning: x = 'ENDP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ENDP"", env = <environment>, verbose = FALSE, : Unable to import “ENDP”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'ENOB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ENOB"", env = <environment>, verbose = FALSE, : Unable to import “ENOB”.
+HTTP error 404.
+"
+"2","Warning: x = 'ENT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ENT"", env = <environment>, verbose = FALSE, : Unable to import “ENT”.
+HTTP error 404.
+"
+"2","Warning: x = 'EPAY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EPAY"", env = <environment>, verbose = FALSE, : Unable to import “EPAY”.
+HTTP error 404.
+"
+"2","Warning: x = 'EPZM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EPZM"", env = <environment>, verbose = FALSE, : Unable to import “EPZM”.
+HTTP error 404.
+"
+"2","Warning: x = 'ERI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ERI"", env = <environment>, verbose = FALSE, : Unable to import “ERI”.
+HTTP error 404.
+"
+"2","Warning: x = 'ESBK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ESBK"", env = <environment>, verbose = FALSE, : Unable to import “ESBK”.
+HTTP error 404.
+"
+"2","Warning: x = 'ESTE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ESTE"", env = <environment>, verbose = FALSE, : Unable to import “ESTE”.
+HTTP error 404.
+"
+"2","Warning: x = 'ESXB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ESXB"", env = <environment>, verbose = FALSE, : Unable to import “ESXB”.
+HTTP error 404.
+"
+"2","Warning: x = 'ETFC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ETFC"", env = <environment>, verbose = FALSE, : Unable to import “ETFC”.
+HTTP error 404.
+"
+"2","Warning: x = 'ETH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ETH"", env = <environment>, verbose = FALSE, : Unable to import “ETH”.
+HTTP error 404.
+"
+"2","Warning: x = 'ETM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ETM"", env = <environment>, verbose = FALSE, : Unable to import “ETM”.
+HTTP error 404.
+"
+"2","Warning: x = 'EVOP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EVOP"", env = <environment>, verbose = FALSE, : Unable to import “EVOP”.
+HTTP error 404.
+"
+"2","Warning: x = 'EXTN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EXTN"", env = <environment>, verbose = FALSE, : Unable to import “EXTN”.
+HTTP error 404.
+"
+"2","Warning: x = 'EYES', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""EYES"", env = <environment>, verbose = FALSE, : Unable to import “EYES”.
+HTTP error 404.
+"
+"2","Warning: x = 'FB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FB"", env = <environment>, verbose = FALSE, : Unable to import “FB”.
+HTTP error 404.
+"
+"2","Warning: x = 'FBC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FBC"", env = <environment>, verbose = FALSE, : Unable to import “FBC”.
+HTTP error 404.
+"
+"2","Warning: x = 'FBHS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FBHS"", env = <environment>, verbose = FALSE, : Unable to import “FBHS”.
+HTTP error 404.
+"
+"2","Warning: x = 'FBM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FBM"", env = <environment>, verbose = FALSE, : Unable to import “FBM”.
+HTTP error 404.
+"
+"2","Warning: x = 'FBSS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FBSS"", env = <environment>, verbose = FALSE, : Unable to import “FBSS”.
+HTTP error 404.
+"
+"2","Warning: x = 'FCBP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FCBP"", env = <environment>, verbose = FALSE, : Unable to import “FCBP”.
+HTTP error 404.
+"
+"2","Warning: x = 'FCCY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FCCY"", env = <environment>, verbose = FALSE, : Unable to import “FCCY”.
+HTTP error 404.
+"
+"2","Warning: x = 'FDEF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FDEF"", env = <environment>, verbose = FALSE, : Unable to import “FDEF”.
+HTTP error 404.
+"
+"2","Warning: x = 'FEYE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FEYE"", env = <environment>, verbose = FALSE, : Unable to import “FEYE”.
+HTTP error 404.
+"
+"2","Warning: x = 'FFG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FFG"", env = <environment>, verbose = FALSE, : Unable to import “FFG”.
+HTTP error 404.
+"
+"2","Warning: x = 'FISV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FISV"", env = <environment>, verbose = FALSE, : Unable to import “FISV”.
+HTTP error 404.
+"
+"2","Warning: x = 'FIT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FIT"", env = <environment>, verbose = FALSE, : Unable to import “FIT”.
+HTTP error 404.
+"
+"2","Warning: x = 'FLDM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FLDM"", env = <environment>, verbose = FALSE, : Unable to import “FLDM”.
+HTTP error 404.
+"
+"2","Warning: x = 'FLIR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FLIR"", env = <environment>, verbose = FALSE, : Unable to import “FLIR”.
+HTTP error 404.
+"
+"2","Warning: x = 'FLMN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FLMN"", env = <environment>, verbose = FALSE, : Unable to import “FLMN”.
+HTTP error 404.
+"
+"2","Warning: x = 'FLXN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FLXN"", env = <environment>, verbose = FALSE, : Unable to import “FLXN”.
+HTTP error 404.
+"
+"2","Warning: x = 'FMBI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FMBI"", env = <environment>, verbose = FALSE, : Unable to import “FMBI”.
+HTTP error 404.
+"
+"2","Warning: x = 'FNHC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FNHC"", env = <environment>, verbose = FALSE, : Unable to import “FNHC”.
+HTTP error 404.
+"
+"2","Warning: x = 'FNJN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FNJN"", env = <environment>, verbose = FALSE, : Unable to import “FNJN”.
+HTTP error 404.
+"
+"2","Warning: x = 'FOCS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FOCS"", env = <environment>, verbose = FALSE, : Unable to import “FOCS”.
+HTTP error 404.
+"
+"2","Warning: x = 'FOE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FOE"", env = <environment>, verbose = FALSE, : Unable to import “FOE”.
+HTTP error 404.
+"
+"2","Warning: x = 'FPRX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FPRX"", env = <environment>, verbose = FALSE, : Unable to import “FPRX”.
+HTTP error 404.
+"
+"2","Warning: x = 'FRAN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FRAN"", env = <environment>, verbose = FALSE, : Unable to import “FRAN”.
+HTTP error 404.
+"
+"2","Warning: x = 'FRC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FRC"", env = <environment>, verbose = FALSE, : Unable to import “FRC”.
+HTTP error 404.
+"
+"2","Warning: x = 'FRGI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FRGI"", env = <environment>, verbose = FALSE, : Unable to import “FRGI”.
+HTTP error 404.
+"
+"2","Warning: x = 'FRTA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FRTA"", env = <environment>, verbose = FALSE, : Unable to import “FRTA”.
+HTTP error 404.
+"
+"2","Warning: x = 'FSB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FSB"", env = <environment>, verbose = FALSE, : Unable to import “FSB”.
+HTTP error 404.
+"
+"2","Warning: x = 'FSCT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FSCT"", env = <environment>, verbose = FALSE, : Unable to import “FSCT”.
+HTTP error 404.
+"
+"2","Warning: x = 'FTSI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FTSI"", env = <environment>, verbose = FALSE, : Unable to import “FTSI”.
+HTTP error 404.
+"
+"2","Warning: x = 'FVE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""FVE"", env = <environment>, verbose = FALSE, : Unable to import “FVE”.
+HTTP error 404.
+"
+"2","Warning: x = 'GBL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GBL"", env = <environment>, verbose = FALSE, : Unable to import “GBL”.
+HTTP error 404.
+"
+"2","Warning: x = 'GBT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GBT"", env = <environment>, verbose = FALSE, : Unable to import “GBT”.
+HTTP error 404.
+"
+"2","Warning: x = 'GCAP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GCAP"", env = <environment>, verbose = FALSE, : Unable to import “GCAP”.
+HTTP error 404.
+"
+"2","Warning: x = 'GCP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GCP"", env = <environment>, verbose = FALSE, : Unable to import “GCP”.
+HTTP error 404.
+"
+"2","Warning: x = 'GDP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GDP"", env = <environment>, verbose = FALSE, : Unable to import “GDP”.
+HTTP error 404.
+"
+"2","Warning: x = 'GEC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GEC"", env = <environment>, verbose = FALSE, : Unable to import “GEC”.
+HTTP error 404.
+"
+"2","Warning: x = 'GFED', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GFED"", env = <environment>, verbose = FALSE, : Unable to import “GFED”.
+HTTP error 404.
+"
+"2","Warning: x = 'GFN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GFN"", env = <environment>, verbose = FALSE, : Unable to import “GFN”.
+HTTP error 404.
+"
+"2","Warning: x = 'GHL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GHL"", env = <environment>, verbose = FALSE, : Unable to import “GHL”.
+HTTP error 404.
+"
+"2","Warning: x = 'GLIBA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GLIBA"", env = <environment>, verbose = FALSE, : Unable to import “GLIBA”.
+HTTP error 404.
+"
+"2","Warning: x = 'GLUU', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GLUU"", env = <environment>, verbose = FALSE, : Unable to import “GLUU”.
+HTTP error 404.
+"
+"2","Warning: x = 'GMO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GMO"", env = <environment>, verbose = FALSE, : Unable to import “GMO”.
+HTTP error 404.
+"
+"2","Warning: x = 'GNC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GNC"", env = <environment>, verbose = FALSE, : Unable to import “GNC”.
+HTTP error 404.
+"
+"2","Warning: x = 'GNCA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GNCA"", env = <environment>, verbose = FALSE, : Unable to import “GNCA”.
+HTTP error 404.
+"
+"2","Warning: x = 'GNMK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GNMK"", env = <environment>, verbose = FALSE, : Unable to import “GNMK”.
+HTTP error 404.
+"
+"2","Warning: x = 'GPX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GPX"", env = <environment>, verbose = FALSE, : Unable to import “GPX”.
+HTTP error 404.
+"
+"2","Warning: x = 'GRA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GRA"", env = <environment>, verbose = FALSE, : Unable to import “GRA”.
+HTTP error 404.
+"
+"2","Warning: x = 'GRUB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GRUB"", env = <environment>, verbose = FALSE, : Unable to import “GRUB”.
+HTTP error 404.
+"
+"2","Warning: x = 'GSB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GSB"", env = <environment>, verbose = FALSE, : Unable to import “GSB”.
+HTTP error 404.
+"
+"2","Warning: x = 'GSKY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GSKY"", env = <environment>, verbose = FALSE, : Unable to import “GSKY”.
+HTTP error 404.
+"
+"2","Warning: x = 'GTS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GTS"", env = <environment>, verbose = FALSE, : Unable to import “GTS”.
+HTTP error 404.
+"
+"2","Warning: x = 'GTT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GTT"", env = <environment>, verbose = FALSE, : Unable to import “GTT”.
+HTTP error 404.
+"
+"2","Warning: x = 'GTYH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GTYH"", env = <environment>, verbose = FALSE, : Unable to import “GTYH”.
+HTTP error 404.
+"
+"2","Warning: x = 'GWB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GWB"", env = <environment>, verbose = FALSE, : Unable to import “GWB”.
+HTTP error 404.
+"
+"2","Warning: x = 'GWGH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GWGH"", env = <environment>, verbose = FALSE, : Unable to import “GWGH”.
+HTTP error 404.
+"
+"2","Warning: x = 'HBMD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HBMD"", env = <environment>, verbose = FALSE, : Unable to import “HBMD”.
+HTTP error 404.
+"
+"2","Warning: x = 'HBP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HBP"", env = <environment>, verbose = FALSE, : Unable to import “HBP”.
+HTTP error 404.
+"
+"2","Warning: x = 'HCCI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HCCI"", env = <environment>, verbose = FALSE, : Unable to import “HCCI”.
+HTTP error 404.
+"
+"2","Warning: x = 'HCFT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HCFT"", env = <environment>, verbose = FALSE, : Unable to import “HCFT”.
+HTTP error 404.
+"
+"2","Warning: x = 'HCHC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HCHC"", env = <environment>, verbose = FALSE, : Unable to import “HCHC”.
+HTTP error 404.
+"
+"2","Warning: x = 'HDS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HDS"", env = <environment>, verbose = FALSE, : Unable to import “HDS”.
+HTTP error 404.
+"
+"2","Warning: x = 'HFC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HFC"", env = <environment>, verbose = FALSE, : Unable to import “HFC”.
+HTTP error 404.
+"
+"2","Warning: x = 'HHC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HHC"", env = <environment>, verbose = FALSE, : Unable to import “HHC”.
+HTTP error 404.
+"
+"2","Warning: x = 'HIL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HIL"", env = <environment>, verbose = FALSE, : Unable to import “HIL”.
+HTTP error 404.
+"
+"2","Warning: x = 'HMHC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HMHC"", env = <environment>, verbose = FALSE, : Unable to import “HMHC”.
+HTTP error 404.
+"
+"2","Warning: x = 'HMSY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HMSY"", env = <environment>, verbose = FALSE, : Unable to import “HMSY”.
+HTTP error 404.
+"
+"2","Warning: x = 'HMTV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HMTV"", env = <environment>, verbose = FALSE, : Unable to import “HMTV”.
+HTTP error 404.
+"
+"2","Warning: x = 'HOME', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HOME"", env = <environment>, verbose = FALSE, : Unable to import “HOME”.
+HTTP error 404.
+"
+"2","Warning: x = 'HPR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HPR"", env = <environment>, verbose = FALSE, : Unable to import “HPR”.
+HTTP error 404.
+"
+"2","Warning: x = 'HRC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HRC"", env = <environment>, verbose = FALSE, : Unable to import “HRC”.
+HTTP error 404.
+"
+"2","Warning: x = 'HSC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HSC"", env = <environment>, verbose = FALSE, : Unable to import “HSC”.
+HTTP error 404.
+"
+"2","Warning: x = 'HSKA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HSKA"", env = <environment>, verbose = FALSE, : Unable to import “HSKA”.
+HTTP error 404.
+"
+"2","Warning: x = 'HT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HT"", env = <environment>, verbose = FALSE, : Unable to import “HT”.
+HTTP error 404.
+"
+"2","Warning: x = 'HTA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HTA"", env = <environment>, verbose = FALSE, : Unable to import “HTA”.
+HTTP error 404.
+"
+"2","Warning: x = 'HTBX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HTBX"", env = <environment>, verbose = FALSE, : Unable to import “HTBX”.
+HTTP error 404.
+"
+"2","Warning: x = 'HTGM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HTGM"", env = <environment>, verbose = FALSE, : Unable to import “HTGM”.
+HTTP error 404.
+"
+"2","Warning: x = 'HWCC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HWCC"", env = <environment>, verbose = FALSE, : Unable to import “HWCC”.
+HTTP error 404.
+"
+"2","Warning: x = 'HZN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HZN"", env = <environment>, verbose = FALSE, : Unable to import “HZN”.
+HTTP error 404.
+"
+"2","Warning: x = 'HZNP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""HZNP"", env = <environment>, verbose = FALSE, : Unable to import “HZNP”.
+HTTP error 404.
+"
+"2","Warning: x = 'IBKC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IBKC"", env = <environment>, verbose = FALSE, : Unable to import “IBKC”.
+HTTP error 404.
+"
+"2","Warning: x = 'ICBK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ICBK"", env = <environment>, verbose = FALSE, : Unable to import “ICBK”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'ICON', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ICON"", env = <environment>, verbose = FALSE, : Unable to import “ICON”.
+HTTP error 404.
+"
+"2","Warning: x = 'ICPT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ICPT"", env = <environment>, verbose = FALSE, : Unable to import “ICPT”.
+HTTP error 404.
+"
+"2","Warning: x = 'IDRA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IDRA"", env = <environment>, verbose = FALSE, : Unable to import “IDRA”.
+HTTP error 404.
+"
+"2","Warning: x = 'IEC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IEC"", env = <environment>, verbose = FALSE, : Unable to import “IEC”.
+HTTP error 404.
+"
+"2","Warning: x = 'IHC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IHC"", env = <environment>, verbose = FALSE, : Unable to import “IHC”.
+HTTP error 404.
+"
+"2","Warning: x = 'IIN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IIN"", env = <environment>, verbose = FALSE, : Unable to import “IIN”.
+HTTP error 404.
+"
+"2","Warning: x = 'IIVI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IIVI"", env = <environment>, verbose = FALSE, : Unable to import “IIVI”.
+HTTP error 404.
+"
+"2","Warning: x = 'IKNX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IKNX"", env = <environment>, verbose = FALSE, : Unable to import “IKNX”.
+HTTP error 404.
+"
+"2","Warning: x = 'IMH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IMH"", env = <environment>, verbose = FALSE, : Unable to import “IMH”.
+HTTP error 404.
+"
+"2","Warning: x = 'IMMU', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IMMU"", env = <environment>, verbose = FALSE, : Unable to import “IMMU”.
+HTTP error 404.
+"
+"2","Warning: x = 'INFI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""INFI"", env = <environment>, verbose = FALSE, : Unable to import “INFI”.
+HTTP error 404.
+"
+"2","Warning: x = 'INFO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""INFO"", env = <environment>, verbose = FALSE, : Unable to import “INFO”.
+HTTP error 404.
+"
+"2","Warning: x = 'INS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""INS"", env = <environment>, verbose = FALSE, : Unable to import “INS”.
+HTTP error 404.
+"
+"2","Warning: x = 'INT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""INT"", env = <environment>, verbose = FALSE, : Unable to import “INT”.
+HTTP error 404.
+"
+"2","Warning: x = 'INWK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""INWK"", env = <environment>, verbose = FALSE, : Unable to import “INWK”.
+HTTP error 404.
+"
+"2","Warning: x = 'IO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IO"", env = <environment>, verbose = FALSE, : Unable to import “IO”.
+HTTP error 404.
+"
+"2","Warning: x = 'IOTS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IOTS"", env = <environment>, verbose = FALSE, : Unable to import “IOTS”.
+HTTP error 404.
+"
+"2","Warning: x = 'IPHI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IPHI"", env = <environment>, verbose = FALSE, : Unable to import “IPHI”.
+HTTP error 404.
+"
+"2","Warning: x = 'ISBC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ISBC"", env = <environment>, verbose = FALSE, : Unable to import “ISBC”.
+HTTP error 404.
+"
+"2","Warning: x = 'ISIG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ISIG"", env = <environment>, verbose = FALSE, : Unable to import “ISIG”.
+HTTP error 404.
+"
+"2","Warning: x = 'ISNS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ISNS"", env = <environment>, verbose = FALSE, : Unable to import “ISNS”.
+HTTP error 404.
+"
+"2","Warning: x = 'ISR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ISR"", env = <environment>, verbose = FALSE, : Unable to import “ISR”.
+HTTP error 404.
+"
+"2","Warning: x = 'IVC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""IVC"", env = <environment>, verbose = FALSE, : Unable to import “IVC”.
+HTTP error 404.
+"
+"2","Warning: x = 'JASN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""JASN"", env = <environment>, verbose = FALSE, : Unable to import “JASN”.
+HTTP error 404.
+"
+"2","Warning: x = 'JAX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""JAX"", env = <environment>, verbose = FALSE, : Unable to import “JAX”.
+HTTP error 404.
+"
+"2","Warning: x = 'JCAP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""JCAP"", env = <environment>, verbose = FALSE, : Unable to import “JCAP”.
+HTTP error 404.
+"
+"2","Warning: x = 'JCOM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""JCOM"", env = <environment>, verbose = FALSE, : Unable to import “JCOM”.
+HTTP error 404.
+"
+"2","Warning: x = 'JCS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""JCS"", env = <environment>, verbose = FALSE, : Unable to import “JCS”.
+HTTP error 404.
+"
+"2","Warning: x = 'JNCE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""JNCE"", env = <environment>, verbose = FALSE, : Unable to import “JNCE”.
+HTTP error 404.
+"
+"2","Warning: x = 'KBAL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""KBAL"", env = <environment>, verbose = FALSE, : Unable to import “KBAL”.
+HTTP error 404.
+"
+"2","Warning: x = 'KDMN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""KDMN"", env = <environment>, verbose = FALSE, : Unable to import “KDMN”.
+HTTP error 404.
+"
+"2","Warning: x = 'KIN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""KIN"", env = <environment>, verbose = FALSE, : Unable to import “KIN”.
+HTTP error 404.
+"
+"2","Warning: x = 'KMPH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""KMPH"", env = <environment>, verbose = FALSE, : Unable to import “KMPH”.
+HTTP error 404.
+"
+"2","Warning: x = 'KNL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""KNL"", env = <environment>, verbose = FALSE, : Unable to import “KNL”.
+HTTP error 404.
+"
+"2","Warning: x = 'KRA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""KRA"", env = <environment>, verbose = FALSE, : Unable to import “KRA”.
+HTTP error 404.
+"
+"2","Warning: x = 'KSU', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""KSU"", env = <environment>, verbose = FALSE, : Unable to import “KSU”.
+HTTP error 404.
+"
+"2","Warning: x = 'LAWS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LAWS"", env = <environment>, verbose = FALSE, : Unable to import “LAWS”.
+HTTP error 404.
+"
+"2","Warning: x = 'LB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LB"", env = <environment>, verbose = FALSE, : Unable to import “LB”.
+HTTP error 404.
+"
+"2","Warning: x = 'LCI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LCI"", env = <environment>, verbose = FALSE, : Unable to import “LCI”.
+HTTP error 404.
+"
+"2","Warning: x = 'LDL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LDL"", env = <environment>, verbose = FALSE, : Unable to import “LDL”.
+HTTP error 404.
+"
+"2","Warning: x = 'LEAF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LEAF"", env = <environment>, verbose = FALSE, : Unable to import “LEAF”.
+HTTP error 404.
+"
+"2","Warning: x = 'LHCG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LHCG"", env = <environment>, verbose = FALSE, : Unable to import “LHCG”.
+HTTP error 404.
+"
+"2","Warning: x = 'LIVX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LIVX"", env = <environment>, verbose = FALSE, : Unable to import “LIVX”.
+HTTP error 404.
+"
+"2","Warning: x = 'LJPC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LJPC"", env = <environment>, verbose = FALSE, : Unable to import “LJPC”.
+HTTP error 404.
+"
+"2","Warning: x = 'LLNW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LLNW"", env = <environment>, verbose = FALSE, : Unable to import “LLNW”.
+HTTP error 404.
+"
+"2","Warning: x = 'LM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LM"", env = <environment>, verbose = FALSE, : Unable to import “LM”.
+HTTP error 404.
+"
+"2","Warning: x = 'LMNX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LMNX"", env = <environment>, verbose = FALSE, : Unable to import “LMNX”.
+HTTP error 404.
+"
+"2","Warning: x = 'LNDC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LNDC"", env = <environment>, verbose = FALSE, : Unable to import “LNDC”.
+HTTP error 404.
+"
+"2","Warning: x = 'LOGM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LOGM"", env = <environment>, verbose = FALSE, : Unable to import “LOGM”.
+HTTP error 404.
+"
+"2","Warning: x = 'LONE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LONE"", env = <environment>, verbose = FALSE, : Unable to import “LONE”.
+HTTP error 404.
+"
+"2","Warning: x = 'LORL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LORL"", env = <environment>, verbose = FALSE, : Unable to import “LORL”.
+HTTP error 404.
+"
+"2","Warning: x = 'LPI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LPI"", env = <environment>, verbose = FALSE, : Unable to import “LPI”.
+HTTP error 404.
+"
+"2","Warning: x = 'LSI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LSI"", env = <environment>, verbose = FALSE, : Unable to import “LSI”.
+HTTP error 404.
+"
+"2","Warning: x = 'LTHM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LTHM"", env = <environment>, verbose = FALSE, : Unable to import “LTHM”.
+HTTP error 404.
+"
+"2","Warning: x = 'LUB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""LUB"", env = <environment>, verbose = FALSE, : Unable to import “LUB”.
+HTTP error 404.
+"
+"2","Warning: x = 'MANT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MANT"", env = <environment>, verbose = FALSE, : Unable to import “MANT”.
+HTTP error 404.
+"
+"2","Warning: x = 'MBII', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MBII"", env = <environment>, verbose = FALSE, : Unable to import “MBII”.
+HTTP error 404.
+"
+"2","Warning: x = 'MCF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MCF"", env = <environment>, verbose = FALSE, : Unable to import “MCF”.
+HTTP error 404.
+"
+"2","Warning: x = 'MDLY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MDLY"", env = <environment>, verbose = FALSE, : Unable to import “MDLY”.
+HTTP error 404.
+"
+"2","Warning: x = 'MDP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MDP"", env = <environment>, verbose = FALSE, : Unable to import “MDP”.
+HTTP error 404.
+"
+"2","Warning: x = 'MEET', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MEET"", env = <environment>, verbose = FALSE, : Unable to import “MEET”.
+HTTP error 404.
+"
+"2","Warning: x = 'MFNC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MFNC"", env = <environment>, verbose = FALSE, : Unable to import “MFNC”.
+HTTP error 404.
+"
+"2","Warning: x = 'MGEN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MGEN"", env = <environment>, verbose = FALSE, : Unable to import “MGEN”.
+HTTP error 404.
+"
+"2","Warning: x = 'MGI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MGI"", env = <environment>, verbose = FALSE, : Unable to import “MGI”.
+HTTP error 404.
+"
+"2","Warning: x = 'MGLN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MGLN"", env = <environment>, verbose = FALSE, : Unable to import “MGLN”.
+HTTP error 404.
+"
+"2","Warning: x = 'MGTA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MGTA"", env = <environment>, verbose = FALSE, : Unable to import “MGTA”.
+HTTP error 404.
+"
+"2","Warning: x = 'MIC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MIC"", env = <environment>, verbose = FALSE, : Unable to import “MIC”.
+HTTP error 404.
+"
+"2","Warning: x = 'MICR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MICR"", env = <environment>, verbose = FALSE, : Unable to import “MICR”.
+HTTP error 404.
+"
+"2","Warning: x = 'MICT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MICT"", env = <environment>, verbose = FALSE, : Unable to import “MICT”.
+HTTP error 404.
+"
+"2","Warning: x = 'MIK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MIK"", env = <environment>, verbose = FALSE, : Unable to import “MIK”.
+HTTP error 404.
+"
+"2","Warning: x = 'MINI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MINI"", env = <environment>, verbose = FALSE, : Unable to import “MINI”.
+HTTP error 404.
+"
+"2","Warning: x = 'MJCO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MJCO"", env = <environment>, verbose = FALSE, : Unable to import “MJCO”.
+HTTP error 404.
+"
+"2","Warning: x = 'MLHR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MLHR"", env = <environment>, verbose = FALSE, : Unable to import “MLHR”.
+HTTP error 404.
+"
+"2","Warning: x = 'MLND', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MLND"", env = <environment>, verbose = FALSE, : Unable to import “MLND”.
+HTTP error 404.
+"
+"2","Warning: x = 'MLVF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MLVF"", env = <environment>, verbose = FALSE, : Unable to import “MLVF”.
+HTTP error 404.
+"
+"2","Warning: x = 'MMAC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MMAC"", env = <environment>, verbose = FALSE, : Unable to import “MMAC”.
+HTTP error 404.
+"
+"2","Warning: x = 'MN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MN"", env = <environment>, verbose = FALSE, : Unable to import “MN”.
+HTTP error 404.
+"
+"2","Warning: x = 'MNK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MNK"", env = <environment>, verbose = FALSE, : Unable to import “MNK”.
+HTTP error 404.
+"
+"2","Warning: x = 'MNRL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MNRL"", env = <environment>, verbose = FALSE, : Unable to import “MNRL”.
+HTTP error 404.
+"
+"2","Warning: x = 'MNTA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MNTA"", env = <environment>, verbose = FALSE, : Unable to import “MNTA”.
+HTTP error 404.
+"
+"2","Warning: x = 'MOBL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MOBL"", env = <environment>, verbose = FALSE, : Unable to import “MOBL”.
+HTTP error 404.
+"
+"2","Warning: x = 'MOSY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MOSY"", env = <environment>, verbose = FALSE, : Unable to import “MOSY”.
+HTTP error 404.
+"
+"2","Warning: x = 'MRLN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MRLN"", env = <environment>, verbose = FALSE, : Unable to import “MRLN”.
+HTTP error 404.
+"
+"2","Warning: x = 'MSBF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MSBF"", env = <environment>, verbose = FALSE, : Unable to import “MSBF”.
+HTTP error 404.
+"
+"2","Warning: x = 'MSGN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MSGN"", env = <environment>, verbose = FALSE, : Unable to import “MSGN”.
+HTTP error 404.
+"
+"2","Warning: x = 'MSON', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MSON"", env = <environment>, verbose = FALSE, : Unable to import “MSON”.
+HTTP error 404.
+"
+"2","Warning: x = 'MTOR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MTOR"", env = <environment>, verbose = FALSE, : Unable to import “MTOR”.
+HTTP error 404.
+"
+"2","Warning: x = 'MTSC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MTSC"", env = <environment>, verbose = FALSE, : Unable to import “MTSC”.
+HTTP error 404.
+"
+"2","Warning: x = 'MXIM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MXIM"", env = <environment>, verbose = FALSE, : Unable to import “MXIM”.
+HTTP error 404.
+"
+"2","Warning: x = 'MYL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MYL"", env = <environment>, verbose = FALSE, : Unable to import “MYL”.
+HTTP error 404.
+"
+"2","Warning: x = 'MYOK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MYOK"", env = <environment>, verbose = FALSE, : Unable to import “MYOK”.
+HTTP error 404.
+"
+"2","Warning: x = 'MYOS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""MYOS"", env = <environment>, verbose = FALSE, : Unable to import “MYOS”.
+HTTP error 404.
+"
+"2","Warning: x = 'NATI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NATI"", env = <environment>, verbose = FALSE, : Unable to import “NATI”.
+HTTP error 404.
+"
+"2","Warning: x = 'NAV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NAV"", env = <environment>, verbose = FALSE, : Unable to import “NAV”.
+HTTP error 404.
+"
+"2","Warning: x = 'NBEV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NBEV"", env = <environment>, verbose = FALSE, : Unable to import “NBEV”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'NBL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NBL"", env = <environment>, verbose = FALSE, : Unable to import “NBL”.
+HTTP error 404.
+"
+"2","Warning: x = 'NCBS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NCBS"", env = <environment>, verbose = FALSE, : Unable to import “NCBS”.
+HTTP error 404.
+"
+"2","Warning: x = 'NCR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NCR"", env = <environment>, verbose = FALSE, : Unable to import “NCR”.
+HTTP error 404.
+"
+"2","Warning: x = 'NEOS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NEOS"", env = <environment>, verbose = FALSE, : Unable to import “NEOS”.
+HTTP error 404.
+"
+"2","Warning: x = 'NETE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NETE"", env = <environment>, verbose = FALSE, : Unable to import “NETE”.
+HTTP error 404.
+"
+"2","Warning: x = 'NEWR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NEWR"", env = <environment>, verbose = FALSE, : Unable to import “NEWR”.
+HTTP error 404.
+"
+"2","Warning: x = 'NGHC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NGHC"", env = <environment>, verbose = FALSE, : Unable to import “NGHC”.
+HTTP error 404.
+"
+"2","Warning: x = 'NK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NK"", env = <environment>, verbose = FALSE, : Unable to import “NK”.
+HTTP error 404.
+"
+"2","Warning: x = 'NLS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NLS"", env = <environment>, verbose = FALSE, : Unable to import “NLS”.
+HTTP error 404.
+"
+"2","Warning: x = 'NLSN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NLSN"", env = <environment>, verbose = FALSE, : Unable to import “NLSN”.
+HTTP error 404.
+"
+"2","Warning: x = 'NP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NP"", env = <environment>, verbose = FALSE, : Unable to import “NP”.
+HTTP error 404.
+"
+"2","Warning: x = 'NPTN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NPTN"", env = <environment>, verbose = FALSE, : Unable to import “NPTN”.
+HTTP error 404.
+"
+"2","Warning: x = 'NRZ', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NRZ"", env = <environment>, verbose = FALSE, : Unable to import “NRZ”.
+HTTP error 404.
+"
+"2","Warning: x = 'NSEC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NSEC"", env = <environment>, verbose = FALSE, : Unable to import “NSEC”.
+HTTP error 404.
+"
+"2","Warning: x = 'NTN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NTN"", env = <environment>, verbose = FALSE, : Unable to import “NTN”.
+HTTP error 404.
+"
+"2","Warning: x = 'NUAN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NUAN"", env = <environment>, verbose = FALSE, : Unable to import “NUAN”.
+HTTP error 404.
+"
+"2","Warning: x = 'NUVA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NUVA"", env = <environment>, verbose = FALSE, : Unable to import “NUVA”.
+HTTP error 404.
+"
+"2","Warning: x = 'NVUS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NVUS"", env = <environment>, verbose = FALSE, : Unable to import “NVUS”.
+HTTP error 404.
+"
+"2","Warning: x = 'NWHM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NWHM"", env = <environment>, verbose = FALSE, : Unable to import “NWHM”.
+HTTP error 404.
+"
+"2","Warning: x = 'NXGN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NXGN"", env = <environment>, verbose = FALSE, : Unable to import “NXGN”.
+HTTP error 404.
+"
+"2","Warning: x = 'NXTD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""NXTD"", env = <environment>, verbose = FALSE, : Unable to import “NXTD”.
+HTTP error 404.
+"
+"2","Warning: x = 'OAS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""OAS"", env = <environment>, verbose = FALSE, : Unable to import “OAS”.
+HTTP error 404.
+"
+"2","Warning: x = 'OBCI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""OBCI"", env = <environment>, verbose = FALSE, : Unable to import “OBCI”.
+HTTP error 404.
+"
+"2","Warning: x = 'OBNK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""OBNK"", env = <environment>, verbose = FALSE, : Unable to import “OBNK”.
+HTTP error 404.
+"
+"2","Warning: x = 'ODT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ODT"", env = <environment>, verbose = FALSE, : Unable to import “ODT”.
+HTTP error 404.
+"
+"2","Warning: x = 'OFC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""OFC"", env = <environment>, verbose = FALSE, : Unable to import “OFC”.
+HTTP error 404.
+"
+"2","Warning: x = 'ONCS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ONCS"", env = <environment>, verbose = FALSE, : Unable to import “ONCS”.
+HTTP error 404.
+"
+"2","Warning: x = 'ONDK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ONDK"", env = <environment>, verbose = FALSE, : Unable to import “ONDK”.
+HTTP error 404.
+"
+"2","Warning: x = 'ORBC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ORBC"", env = <environment>, verbose = FALSE, : Unable to import “ORBC”.
+HTTP error 404.
+"
+"2","Warning: x = 'OSTK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""OSTK"", env = <environment>, verbose = FALSE, : Unable to import “OSTK”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'OTEL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""OTEL"", env = <environment>, verbose = FALSE, : Unable to import “OTEL”.
+HTTP error 404.
+"
+"2","Warning: x = 'OTIC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""OTIC"", env = <environment>, verbose = FALSE, : Unable to import “OTIC”.
+HTTP error 404.
+"
+"2","Warning: x = 'PACW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PACW"", env = <environment>, verbose = FALSE, : Unable to import “PACW”.
+HTTP error 404.
+"
+"2","Warning: x = 'PATI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PATI"", env = <environment>, verbose = FALSE, : Unable to import “PATI”.
+HTTP error 404.
+"
+"2","Warning: x = 'PBCT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PBCT"", env = <environment>, verbose = FALSE, : Unable to import “PBCT”.
+HTTP error 404.
+"
+"2","Warning: x = 'PBIP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PBIP"", env = <environment>, verbose = FALSE, : Unable to import “PBIP”.
+HTTP error 404.
+"
+"2","Warning: x = 'PCSB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PCSB"", env = <environment>, verbose = FALSE, : Unable to import “PCSB”.
+HTTP error 404.
+"
+"2","Warning: x = 'PCTI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PCTI"", env = <environment>, verbose = FALSE, : Unable to import “PCTI”.
+HTTP error 404.
+"
+"2","Warning: x = 'PCYG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PCYG"", env = <environment>, verbose = FALSE, : Unable to import “PCYG”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'PDCE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PDCE"", env = <environment>, verbose = FALSE, : Unable to import “PDCE”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'PDLI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PDLI"", env = <environment>, verbose = FALSE, : Unable to import “PDLI”.
+HTTP error 404.
+"
+"2","Warning: x = 'PE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PE"", env = <environment>, verbose = FALSE, : Unable to import “PE”.
+HTTP error 404.
+"
+"2","Warning: x = 'PEI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PEI"", env = <environment>, verbose = FALSE, : Unable to import “PEI”.
+HTTP error 404.
+"
+"2","Warning: x = 'PEIX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PEIX"", env = <environment>, verbose = FALSE, : Unable to import “PEIX”.
+HTTP error 404.
+"
+"2","Warning: x = 'PFBI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PFBI"", env = <environment>, verbose = FALSE, : Unable to import “PFBI”.
+HTTP error 404.
+"
+"2","Warning: x = 'PFIN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PFIN"", env = <environment>, verbose = FALSE, : Unable to import “PFIN”.
+HTTP error 404.
+"
+"2","Warning: x = 'PFNX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PFNX"", env = <environment>, verbose = FALSE, : Unable to import “PFNX”.
+HTTP error 404.
+"
+"2","Warning: x = 'PFPT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PFPT"", env = <environment>, verbose = FALSE, : Unable to import “PFPT”.
+HTTP error 404.
+"
+"2","Warning: x = 'PFSW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PFSW"", env = <environment>, verbose = FALSE, : Unable to import “PFSW”.
+HTTP error 404.
+"
+"2","Warning: x = 'PGNX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PGNX"", env = <environment>, verbose = FALSE, : Unable to import “PGNX”.
+HTTP error 404.
+"
+"2","Warning: x = 'PHAS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PHAS"", env = <environment>, verbose = FALSE, : Unable to import “PHAS”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'PICO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PICO"", env = <environment>, verbose = FALSE, : Unable to import “PICO”.
+HTTP error 404.
+"
+"2","Warning: x = 'PIH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PIH"", env = <environment>, verbose = FALSE, : Unable to import “PIH”.
+HTTP error 404.
+"
+"2","Warning: x = 'PKI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PKI"", env = <environment>, verbose = FALSE, : Unable to import “PKI”.
+HTTP error 404.
+"
+"2","Warning: x = 'PLAN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PLAN"", env = <environment>, verbose = FALSE, : Unable to import “PLAN”.
+HTTP error 404.
+"
+"2","Warning: x = 'PLT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PLT"", env = <environment>, verbose = FALSE, : Unable to import “PLT”.
+HTTP error 404.
+"
+"2","Warning: x = 'PLXP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PLXP"", env = <environment>, verbose = FALSE, : Unable to import “PLXP”.
+HTTP error 404.
+"
+"2","Warning: x = 'PMBC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PMBC"", env = <environment>, verbose = FALSE, : Unable to import “PMBC”.
+HTTP error 404.
+"
+"2","Warning: x = 'PQG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PQG"", env = <environment>, verbose = FALSE, : Unable to import “PQG”.
+HTTP error 404.
+"
+"2","Warning: x = 'PRAH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PRAH"", env = <environment>, verbose = FALSE, : Unable to import “PRAH”.
+HTTP error 404.
+"
+"2","Warning: x = 'PRCP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PRCP"", env = <environment>, verbose = FALSE, : Unable to import “PRCP”.
+HTTP error 404.
+"
+"2","Warning: x = 'PRGX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PRGX"", env = <environment>, verbose = FALSE, : Unable to import “PRGX”.
+HTTP error 404.
+"
+"2","Warning: x = 'PRNB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PRNB"", env = <environment>, verbose = FALSE, : Unable to import “PRNB”.
+HTTP error 404.
+"
+"2","Warning: x = 'PRSC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PRSC"", env = <environment>, verbose = FALSE, : Unable to import “PRSC”.
+HTTP error 404.
+"
+"2","Warning: x = 'PRSP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PRSP"", env = <environment>, verbose = FALSE, : Unable to import “PRSP”.
+HTTP error 404.
+"
+"2","Warning: x = 'PRTK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PRTK"", env = <environment>, verbose = FALSE, : Unable to import “PRTK”.
+HTTP error 404.
+"
+"2","Warning: x = 'PRTY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PRTY"", env = <environment>, verbose = FALSE, : Unable to import “PRTY”.
+HTTP error 404.
+"
+"2","Warning: x = 'PRVB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PRVB"", env = <environment>, verbose = FALSE, : Unable to import “PRVB”.
+HTTP error 404.
+"
+"2","Warning: x = 'PS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PS"", env = <environment>, verbose = FALSE, : Unable to import “PS”.
+HTTP error 404.
+"
+"2","Warning: x = 'PSB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PSB"", env = <environment>, verbose = FALSE, : Unable to import “PSB”.
+HTTP error 404.
+"
+"2","Warning: x = 'PTE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PTE"", env = <environment>, verbose = FALSE, : Unable to import “PTE”.
+HTTP error 404.
+"
+"2","Warning: x = 'PTI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PTI"", env = <environment>, verbose = FALSE, : Unable to import “PTI”.
+HTTP error 404.
+"
+"2","Warning: x = 'PTLA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PTLA"", env = <environment>, verbose = FALSE, : Unable to import “PTLA”.
+HTTP error 404.
+"
+"2","Warning: x = 'PTVCA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PTVCA"", env = <environment>, verbose = FALSE, : Unable to import “PTVCA”.
+HTTP error 404.
+"
+"2","Warning: x = 'PTVCB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PTVCB"", env = <environment>, verbose = FALSE, : Unable to import “PTVCB”.
+HTTP error 404.
+"
+"2","Warning: x = 'PUB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PUB"", env = <environment>, verbose = FALSE, : Unable to import “PUB”.
+HTTP error 404.
+"
+"2","Warning: x = 'PVAC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PVAC"", env = <environment>, verbose = FALSE, : Unable to import “PVAC”.
+HTTP error 404.
+"
+"2","Warning: x = 'PZN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""PZN"", env = <environment>, verbose = FALSE, : Unable to import “PZN”.
+HTTP error 404.
+"
+"2","Warning: x = 'QADA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""QADA"", env = <environment>, verbose = FALSE, : Unable to import “QADA”.
+HTTP error 404.
+"
+"2","Warning: x = 'QADB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""QADB"", env = <environment>, verbose = FALSE, : Unable to import “QADB”.
+HTTP error 404.
+"
+"2","Warning: x = 'QEP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""QEP"", env = <environment>, verbose = FALSE, : Unable to import “QEP”.
+HTTP error 404.
+"
+"2","Warning: x = 'QTS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""QTS"", env = <environment>, verbose = FALSE, : Unable to import “QTS”.
+HTTP error 404.
+"
+"2","Warning: x = 'QUMU', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""QUMU"", env = <environment>, verbose = FALSE, : Unable to import “QUMU”.
+HTTP error 404.
+"
+"2","Warning: x = 'QUOT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""QUOT"", env = <environment>, verbose = FALSE, : Unable to import “QUOT”.
+HTTP error 404.
+"
+"2","Warning: x = 'RAD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RAD"", env = <environment>, verbose = FALSE, : Unable to import “RAD”.
+HTTP error 404.
+"
+"2","Warning: x = 'RAVN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RAVN"", env = <environment>, verbose = FALSE, : Unable to import “RAVN”.
+HTTP error 404.
+"
+"2","Warning: x = 'RBNC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RBNC"", env = <environment>, verbose = FALSE, : Unable to import “RBNC”.
+HTTP error 404.
+"
+"2","Warning: x = 'RCII', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RCII"", env = <environment>, verbose = FALSE, : Unable to import “RCII”.
+HTTP error 404.
+"
+"2","Warning: x = 'RE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RE"", env = <environment>, verbose = FALSE, : Unable to import “RE”.
+HTTP error 404.
+"
+"2","Warning: x = 'REPH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""REPH"", env = <environment>, verbose = FALSE, : Unable to import “REPH”.
+HTTP error 404.
+"
+"2","Warning: x = 'RESN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RESN"", env = <environment>, verbose = FALSE, : Unable to import “RESN”.
+HTTP error 404.
+"
+"2","Warning: x = 'RETA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RETA"", env = <environment>, verbose = FALSE, : Unable to import “RETA”.
+HTTP error 404.
+"
+"2","Warning: x = 'REV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""REV"", env = <environment>, verbose = FALSE, : Unable to import “REV”.
+HTTP error 404.
+"
+"2","Warning: x = 'RFP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RFP"", env = <environment>, verbose = FALSE, : Unable to import “RFP”.
+HTTP error 404.
+"
+"2","Warning: x = 'RLGY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RLGY"", env = <environment>, verbose = FALSE, : Unable to import “RLGY”.
+HTTP error 404.
+"
+"2","Warning: x = 'RLH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RLH"", env = <environment>, verbose = FALSE, : Unable to import “RLH”.
+HTTP error 404.
+"
+"2","Warning: x = 'RNDB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RNDB"", env = <environment>, verbose = FALSE, : Unable to import “RNDB”.
+HTTP error 404.
+"
+"2","Warning: x = 'RNET', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RNET"", env = <environment>, verbose = FALSE, : Unable to import “RNET”.
+HTTP error 404.
+"
+"2","Warning: x = 'RNWK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RNWK"", env = <environment>, verbose = FALSE, : Unable to import “RNWK”.
+HTTP error 404.
+"
+"2","Warning: x = 'ROLL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ROLL"", env = <environment>, verbose = FALSE, : Unable to import “ROLL”.
+HTTP error 404.
+"
+"2","Warning: x = 'RP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RP"", env = <environment>, verbose = FALSE, : Unable to import “RP”.
+HTTP error 404.
+"
+"2","Warning: x = 'RPAI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RPAI"", env = <environment>, verbose = FALSE, : Unable to import “RPAI”.
+HTTP error 404.
+"
+"2","Warning: x = 'RPT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RPT"", env = <environment>, verbose = FALSE, : Unable to import “RPT”.
+HTTP error 404.
+"
+"2","Warning: x = 'RRD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RRD"", env = <environment>, verbose = FALSE, : Unable to import “RRD”.
+HTTP error 404.
+"
+"2","Warning: x = 'RST', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RST"", env = <environment>, verbose = FALSE, : Unable to import “RST”.
+HTTP error 404.
+"
+"2","Warning: x = 'RTIX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RTIX"", env = <environment>, verbose = FALSE, : Unable to import “RTIX”.
+HTTP error 404.
+"
+"2","Warning: x = 'RTRX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RTRX"", env = <environment>, verbose = FALSE, : Unable to import “RTRX”.
+HTTP error 404.
+"
+"2","Warning: x = 'RUBI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RUBI"", env = <environment>, verbose = FALSE, : Unable to import “RUBI”.
+HTTP error 404.
+"
+"2","Warning: x = 'RUBY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RUBY"", env = <environment>, verbose = FALSE, : Unable to import “RUBY”.
+HTTP error 404.
+"
+"2","Warning: x = 'RUTH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RUTH"", env = <environment>, verbose = FALSE, : Unable to import “RUTH”.
+HTTP error 404.
+"
+"2","Warning: x = 'RVI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RVI"", env = <environment>, verbose = FALSE, : Unable to import “RVI”.
+HTTP error 404.
+"
+"2","Warning: x = 'RVLT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RVLT"", env = <environment>, verbose = FALSE, : Unable to import “RVLT”.
+HTTP error 404.
+"
+"2","Warning: x = 'RXN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""RXN"", env = <environment>, verbose = FALSE, : Unable to import “RXN”.
+HTTP error 404.
+"
+"2","Warning: x = 'SAFM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SAFM"", env = <environment>, verbose = FALSE, : Unable to import “SAFM”.
+HTTP error 404.
+"
+"2","Warning: x = 'SAIL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SAIL"", env = <environment>, verbose = FALSE, : Unable to import “SAIL”.
+HTTP error 404.
+"
+"2","Warning: x = 'SAL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SAL"", env = <environment>, verbose = FALSE, : Unable to import “SAL”.
+HTTP error 404.
+"
+"2","Warning: x = 'SBBX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SBBX"", env = <environment>, verbose = FALSE, : Unable to import “SBBX”.
+HTTP error 404.
+"
+"2","Warning: x = 'SBPH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SBPH"", env = <environment>, verbose = FALSE, : Unable to import “SBPH”.
+HTTP error 404.
+"
+"2","Warning: x = 'SC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SC"", env = <environment>, verbose = FALSE, : Unable to import “SC”.
+HTTP error 404.
+"
+"2","Warning: x = 'SCHN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SCHN"", env = <environment>, verbose = FALSE, : Unable to import “SCHN”.
+HTTP error 404.
+"
+"2","Warning: x = 'SCON', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SCON"", env = <environment>, verbose = FALSE, : Unable to import “SCON”.
+HTTP error 404.
+"
+"2","Warning: x = 'SCPL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SCPL"", env = <environment>, verbose = FALSE, : Unable to import “SCPL”.
+HTTP error 404.
+"
+"2","Warning: x = 'SELB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SELB"", env = <environment>, verbose = FALSE, : Unable to import “SELB”.
+HTTP error 404.
+"
+"2","Warning: x = 'SERV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SERV"", env = <environment>, verbose = FALSE, : Unable to import “SERV”.
+HTTP error 404.
+"
+"2","Warning: x = 'SESN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SESN"", env = <environment>, verbose = FALSE, : Unable to import “SESN”.
+HTTP error 404.
+"
+"2","Warning: x = 'SGEN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SGEN"", env = <environment>, verbose = FALSE, : Unable to import “SGEN”.
+HTTP error 404.
+"
+"2","Warning: x = 'SGMS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SGMS"", env = <environment>, verbose = FALSE, : Unable to import “SGMS”.
+HTTP error 404.
+"
+"2","Warning: x = 'SHLO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SHLO"", env = <environment>, verbose = FALSE, : Unable to import “SHLO”.
+HTTP error 404.
+"
+"2","Warning: x = 'SHSP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SHSP"", env = <environment>, verbose = FALSE, : Unable to import “SHSP”.
+HTTP error 404.
+"
+"2","Warning: x = 'SITO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SITO"", env = <environment>, verbose = FALSE, : Unable to import “SITO”.
+HTTP error 404.
+"
+"2","Warning: x = 'SIVB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SIVB"", env = <environment>, verbose = FALSE, : Unable to import “SIVB”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'SJI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SJI"", env = <environment>, verbose = FALSE, : Unable to import “SJI”.
+HTTP error 404.
+"
+"2","Warning: x = 'SLCT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SLCT"", env = <environment>, verbose = FALSE, : Unable to import “SLCT”.
+HTTP error 404.
+"
+"2","Warning: x = 'SMED', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SMED"", env = <environment>, verbose = FALSE, : Unable to import “SMED”.
+HTTP error 404.
+"
+"2","Warning: x = 'SNR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SNR"", env = <environment>, verbose = FALSE, : Unable to import “SNR”.
+HTTP error 404.
+"
+"2","Warning: x = 'SNSS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SNSS"", env = <environment>, verbose = FALSE, : Unable to import “SNSS”.
+HTTP error 404.
+"
+"2","Warning: x = 'SOLY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SOLY"", env = <environment>, verbose = FALSE, : Unable to import “SOLY”.
+HTTP error 404.
+"
+"2","Warning: x = 'SONA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SONA"", env = <environment>, verbose = FALSE, : Unable to import “SONA”.
+HTTP error 404.
+"
+"2","Warning: x = 'SPKE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SPKE"", env = <environment>, verbose = FALSE, : Unable to import “SPKE”.
+HTTP error 404.
+"
+"2","Warning: x = 'SPN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SPN"", env = <environment>, verbose = FALSE, : Unable to import “SPN”.
+HTTP error 404.
+"
+"2","Warning: x = 'SPNE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SPNE"", env = <environment>, verbose = FALSE, : Unable to import “SPNE”.
+HTTP error 404.
+"
+"2","Warning: x = 'SPPI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SPPI"", env = <environment>, verbose = FALSE, : Unable to import “SPPI”.
+HTTP error 404.
+"
+"2","Warning: x = 'SPRT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SPRT"", env = <environment>, verbose = FALSE, : Unable to import “SPRT”.
+HTTP error 404.
+"
+"2","Warning: x = 'SQBG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SQBG"", env = <environment>, verbose = FALSE, : Unable to import “SQBG”.
+HTTP error 404.
+"
+"2","Warning: x = 'SREV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SREV"", env = <environment>, verbose = FALSE, : Unable to import “SREV”.
+HTTP error 404.
+"
+"2","Warning: x = 'SRNE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SRNE"", env = <environment>, verbose = FALSE, : Unable to import “SRNE”.
+HTTP error 404.
+"
+"2","Warning: x = 'SRT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SRT"", env = <environment>, verbose = FALSE, : Unable to import “SRT”.
+HTTP error 404.
+"
+"2","Warning: x = 'STAR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""STAR"", env = <environment>, verbose = FALSE, : Unable to import “STAR”.
+HTTP error 404.
+"
+"2","Warning: x = 'STAY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""STAY"", env = <environment>, verbose = FALSE, : Unable to import “STAY”.
+HTTP error 404.
+"
+"2","Warning: x = 'STFC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""STFC"", env = <environment>, verbose = FALSE, : Unable to import “STFC”.
+HTTP error 404.
+"
+"2","Warning: x = 'STL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""STL"", env = <environment>, verbose = FALSE, : Unable to import “STL”.
+HTTP error 404.
+"
+"2","Warning: x = 'STMP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""STMP"", env = <environment>, verbose = FALSE, : Unable to import “STMP”.
+HTTP error 404.
+"
+"2","Warning: x = 'STND', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""STND"", env = <environment>, verbose = FALSE, : Unable to import “STND”.
+HTTP error 404.
+"
+"2","Warning: x = 'STOR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""STOR"", env = <environment>, verbose = FALSE, : Unable to import “STOR”.
+HTTP error 404.
+"
+"2","Warning: x = 'STXB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""STXB"", env = <environment>, verbose = FALSE, : Unable to import “STXB”.
+HTTP error 404.
+"
+"2","Warning: x = 'SUMR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SUMR"", env = <environment>, verbose = FALSE, : Unable to import “SUMR”.
+HTTP error 404.
+"
+"2","Warning: x = 'SVBI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SVBI"", env = <environment>, verbose = FALSE, : Unable to import “SVBI”.
+HTTP error 404.
+"
+"2","Warning: x = 'SVMK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SVMK"", env = <environment>, verbose = FALSE, : Unable to import “SVMK”.
+HTTP error 404.
+"
+"2","Warning: x = 'SWCH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SWCH"", env = <environment>, verbose = FALSE, : Unable to import “SWCH”.
+HTTP error 404.
+"
+"2","Warning: x = 'SWM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SWM"", env = <environment>, verbose = FALSE, : Unable to import “SWM”.
+HTTP error 404.
+"
+"2","Warning: x = 'SYKE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SYKE"", env = <environment>, verbose = FALSE, : Unable to import “SYKE”.
+HTTP error 404.
+"
+"2","Warning: x = 'SYN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SYN"", env = <environment>, verbose = FALSE, : Unable to import “SYN”.
+HTTP error 404.
+"
+"2","Warning: x = 'SYNC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SYNC"", env = <environment>, verbose = FALSE, : Unable to import “SYNC”.
+HTTP error 404.
+"
+"2","Warning: x = 'SYNH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SYNH"", env = <environment>, verbose = FALSE, : Unable to import “SYNH”.
+HTTP error 404.
+"
+"2","Warning: x = 'SYNL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SYNL"", env = <environment>, verbose = FALSE, : Unable to import “SYNL”.
+HTTP error 404.
+"
+"2","Warning: x = 'SYX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""SYX"", env = <environment>, verbose = FALSE, : Unable to import “SYX”.
+HTTP error 404.
+"
+"2","Warning: x = 'TAT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TAT"", env = <environment>, verbose = FALSE, : Unable to import “TAT”.
+HTTP error 404.
+"
+"2","Warning: x = 'TBK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TBK"", env = <environment>, verbose = FALSE, : Unable to import “TBK”.
+HTTP error 404.
+"
+"2","Warning: x = 'TCDA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TCDA"", env = <environment>, verbose = FALSE, : Unable to import “TCDA”.
+HTTP error 404.
+"
+"2","Warning: x = 'TCF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TCF"", env = <environment>, verbose = FALSE, : Unable to import “TCF”.
+HTTP error 404.
+"
+"2","Warning: x = 'TCFC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TCFC"", env = <environment>, verbose = FALSE, : Unable to import “TCFC”.
+HTTP error 404.
+"
+"2","Warning: x = 'TCO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TCO"", env = <environment>, verbose = FALSE, : Unable to import “TCO”.
+HTTP error 404.
+"
+"2","Warning: x = 'TECD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TECD"", env = <environment>, verbose = FALSE, : Unable to import “TECD”.
+HTTP error 404.
+"
+"2","Warning: x = 'TEN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TEN"", env = <environment>, verbose = FALSE, : Unable to import “TEN”.
+HTTP error 404.
+"
+"2","Warning: x = 'TERP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TERP"", env = <environment>, verbose = FALSE, : Unable to import “TERP”.
+HTTP error 404.
+"
+"2","Warning: x = 'TESS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TESS"", env = <environment>, verbose = FALSE, : Unable to import “TESS”.
+HTTP error 404.
+"
+"2","Warning: x = 'TEUM', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TEUM"", env = <environment>, verbose = FALSE, : Unable to import “TEUM”.
+HTTP error 404.
+"
+"2","Warning: x = 'TIF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TIF"", env = <environment>, verbose = FALSE, : Unable to import “TIF”.
+HTTP error 404.
+"
+"2","Warning: x = 'TLGT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TLGT"", env = <environment>, verbose = FALSE, : Unable to import “TLGT”.
+HTTP error 404.
+"
+"2","Warning: x = 'TLRD', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TLRD"", env = <environment>, verbose = FALSE, : Unable to import “TLRD”.
+HTTP error 404.
+"
+"2","Warning: x = 'TNAV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TNAV"", env = <environment>, verbose = FALSE, : Unable to import “TNAV”.
+HTTP error 404.
+"
+"2","Warning: x = 'TORC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TORC"", env = <environment>, verbose = FALSE, : Unable to import “TORC”.
+HTTP error 404.
+"
+"2","Warning: x = 'TPRE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TPRE"", env = <environment>, verbose = FALSE, : Unable to import “TPRE”.
+HTTP error 404.
+"
+"2","Warning: x = 'TPTX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TPTX"", env = <environment>, verbose = FALSE, : Unable to import “TPTX”.
+HTTP error 404.
+"
+"2","Warning: x = 'TRCH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TRCH"", env = <environment>, verbose = FALSE, : Unable to import “TRCH”.
+HTTP error 404.
+"
+"2","Warning: x = 'TREC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TREC"", env = <environment>, verbose = FALSE, : Unable to import “TREC”.
+HTTP error 404.
+"
+"2","Warning: x = 'TRHC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TRHC"", env = <environment>, verbose = FALSE, : Unable to import “TRHC”.
+HTTP error 404.
+"
+"2","Warning: x = 'TRTN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TRTN"", env = <environment>, verbose = FALSE, : Unable to import “TRTN”.
+HTTP error 404.
+"
+"2","Warning: x = 'TRWH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TRWH"", env = <environment>, verbose = FALSE, : Unable to import “TRWH”.
+HTTP error 404.
+"
+"2","Warning: x = 'TRXC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TRXC"", env = <environment>, verbose = FALSE, : Unable to import “TRXC”.
+HTTP error 404.
+"
+"2","Warning: x = 'TSC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TSC"", env = <environment>, verbose = FALSE, : Unable to import “TSC”.
+HTTP error 404.
+"
+"2","Warning: x = 'TTPH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TTPH"", env = <environment>, verbose = FALSE, : Unable to import “TTPH”.
+HTTP error 404.
+"
+"2","Warning: x = 'TVTY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TVTY"", env = <environment>, verbose = FALSE, : Unable to import “TVTY”.
+HTTP error 404.
+"
+"2","Warning: x = 'TWMC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TWMC"", env = <environment>, verbose = FALSE, : Unable to import “TWMC”.
+HTTP error 404.
+"
+"2","Warning: x = 'TWNK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TWNK"", env = <environment>, verbose = FALSE, : Unable to import “TWNK”.
+HTTP error 404.
+"
+"2","Warning: x = 'TWTR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TWTR"", env = <environment>, verbose = FALSE, : Unable to import “TWTR”.
+HTTP error 404.
+"
+"2","Warning: x = 'TYME', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""TYME"", env = <environment>, verbose = FALSE, : Unable to import “TYME”.
+HTTP error 404.
+"
+"2","Warning: x = 'UBA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""UBA"", env = <environment>, verbose = FALSE, : Unable to import “UBA”.
+HTTP error 404.
+"
+"2","Warning: x = 'UFAB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""UFAB"", env = <environment>, verbose = FALSE, : Unable to import “UFAB”.
+HTTP error 404.
+"
+"2","Warning: x = 'UFS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""UFS"", env = <environment>, verbose = FALSE, : Unable to import “UFS”.
+HTTP error 404.
+"
+"2","Warning: x = 'UIHC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""UIHC"", env = <environment>, verbose = FALSE, : Unable to import “UIHC”.
+HTTP error 404.
+"
+"2","Warning: x = 'UMPQ', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""UMPQ"", env = <environment>, verbose = FALSE, : Unable to import “UMPQ”.
+HTTP error 404.
+"
+"2","Warning: x = 'UNVR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""UNVR"", env = <environment>, verbose = FALSE, : Unable to import “UNVR”.
+HTTP error 404.
+"
+"2","Warning: x = 'UROV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""UROV"", env = <environment>, verbose = FALSE, : Unable to import “UROV”.
+HTTP error 404.
+"
+"2","Warning: x = 'USAK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""USAK"", env = <environment>, verbose = FALSE, : Unable to import “USAK”.
+HTTP error 404.
+"
+"2","Warning: x = 'USAT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""USAT"", env = <environment>, verbose = FALSE, : Unable to import “USAT”.
+HTTP error 404.
+"
+"2","Warning: x = 'USCR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""USCR"", env = <environment>, verbose = FALSE, : Unable to import “USCR”.
+HTTP error 404.
+"
+"2","Warning: x = 'USWS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""USWS"", env = <environment>, verbose = FALSE, : Unable to import “USWS”.
+HTTP error 404.
+"
+"2","Warning: x = 'USX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""USX"", env = <environment>, verbose = FALSE, : Unable to import “USX”.
+HTTP error 404.
+"
+"2","Warning: x = 'VAR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VAR"", env = <environment>, verbose = FALSE, : Unable to import “VAR”.
+HTTP error 404.
+"
+"2","Warning: x = 'VCRA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VCRA"", env = <environment>, verbose = FALSE, : Unable to import “VCRA”.
+HTTP error 404.
+"
+"2","Warning: x = 'VEC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VEC"", env = <environment>, verbose = FALSE, : Unable to import “VEC”.
+HTTP error 404.
+"
+"2","Warning: x = 'VER', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VER"", env = <environment>, verbose = FALSE, : Unable to import “VER”.
+HTTP error 404.
+"
+"2","Warning: x = 'VG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VG"", env = <environment>, verbose = FALSE, : Unable to import “VG”.
+HTTP error 404.
+"
+"2","Warning: x = 'VIVO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VIVO"", env = <environment>, verbose = FALSE, : Unable to import “VIVO”.
+HTTP error 404.
+"
+"2","Warning: x = 'VMW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VMW"", env = <environment>, verbose = FALSE, : Unable to import “VMW”.
+HTTP error 404.
+"
+"2","Warning: x = 'VNE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VNE"", env = <environment>, verbose = FALSE, : Unable to import “VNE”.
+HTTP error 404.
+"
+"2","Warning: x = 'VNTR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VNTR"", env = <environment>, verbose = FALSE, : Unable to import “VNTR”.
+HTTP error 404.
+"
+"2","Warning: x = 'VRAY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VRAY"", env = <environment>, verbose = FALSE, : Unable to import “VRAY”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'VRS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VRS"", env = <environment>, verbose = FALSE, : Unable to import “VRS”.
+HTTP error 404.
+"
+"2","Warning: x = 'VRTU', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VRTU"", env = <environment>, verbose = FALSE, : Unable to import “VRTU”.
+HTTP error 404.
+"
+"2","Warning: x = 'VRTV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VRTV"", env = <environment>, verbose = FALSE, : Unable to import “VRTV”.
+HTTP error 404.
+"
+"2","Warning: x = 'VSLR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VSLR"", env = <environment>, verbose = FALSE, : Unable to import “VSLR”.
+HTTP error 404.
+"
+"2","Warning: x = 'VVUS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VVUS"", env = <environment>, verbose = FALSE, : Unable to import “VVUS”.
+HTTP error 404.
+"
+"2","Warning: x = 'WBT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WBT"", env = <environment>, verbose = FALSE, : Unable to import “WBT”.
+HTTP error 404.
+"
+"2","Warning: x = 'WDR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WDR"", env = <environment>, verbose = FALSE, : Unable to import “WDR”.
+HTTP error 404.
+"
+"2","Warning: x = 'WETF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WETF"", env = <environment>, verbose = FALSE, : Unable to import “WETF”.
+HTTP error 404.
+"
+"2","Warning: x = 'WIFI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WIFI"", env = <environment>, verbose = FALSE, : Unable to import “WIFI”.
+HTTP error 404.
+"
+"2","Warning: x = 'WLL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WLL"", env = <environment>, verbose = FALSE, : Unable to import “WLL”.
+HTTP error 404.
+"
+"2","Warning: x = 'WLTW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WLTW"", env = <environment>, verbose = FALSE, : Unable to import “WLTW”.
+HTTP error 404.
+"
+"2","Warning: x = 'WMC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WMC"", env = <environment>, verbose = FALSE, : Unable to import “WMC”.
+HTTP error 404.
+"
+"2","Warning: x = 'WMGI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WMGI"", env = <environment>, verbose = FALSE, : Unable to import “WMGI”.
+HTTP error 404.
+"
+"2","Warning: x = 'WPG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WPG"", env = <environment>, verbose = FALSE, : Unable to import “WPG”.
+HTTP error 404.
+"
+"2","Warning: x = 'WPX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WPX"", env = <environment>, verbose = FALSE, : Unable to import “WPX”.
+HTTP error 404.
+"
+"2","Warning: x = 'WRE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WRE"", env = <environment>, verbose = FALSE, : Unable to import “WRE”.
+HTTP error 404.
+"
+"2","Warning: x = 'WRI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WRI"", env = <environment>, verbose = FALSE, : Unable to import “WRI”.
+HTTP error 404.
+"
+"2","Warning: x = 'WRTC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WRTC"", env = <environment>, verbose = FALSE, : Unable to import “WRTC”.
+HTTP error 404.
+"
+"2","Warning: x = 'WSTG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WSTG"", env = <environment>, verbose = FALSE, : Unable to import “WSTG”.
+HTTP error 404.
+"
+"2","Warning: x = 'WTRH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WTRH"", env = <environment>, verbose = FALSE, : Unable to import “WTRH”.
+HTTP error 404.
+"
+"2","Warning: x = 'WTT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WTT"", env = <environment>, verbose = FALSE, : Unable to import “WTT”.
+HTTP error 404.
+"
+"2","Warning: x = 'WWE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WWE"", env = <environment>, verbose = FALSE, : Unable to import “WWE”.
+HTTP error 404.
+"
+"2","Warning: x = 'WYND', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WYND"", env = <environment>, verbose = FALSE, : Unable to import “WYND”.
+HTTP error 404.
+"
+"2","Warning: x = 'XAN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""XAN"", env = <environment>, verbose = FALSE, : Unable to import “XAN”.
+HTTP error 404.
+"
+"2","Warning: x = 'XEC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""XEC"", env = <environment>, verbose = FALSE, : Unable to import “XEC”.
+HTTP error 404.
+"
+"2","Warning: x = 'XENT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""XENT"", env = <environment>, verbose = FALSE, : Unable to import “XENT”.
+HTTP error 404.
+"
+"2","Warning: x = 'XLNX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""XLNX"", env = <environment>, verbose = FALSE, : Unable to import “XLNX”.
+HTTP error 404.
+"
+"2","Warning: x = 'XLRN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""XLRN"", env = <environment>, verbose = FALSE, : Unable to import “XLRN”.
+HTTP error 404.
+"
+"2","Warning: x = 'XOG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""XOG"", env = <environment>, verbose = FALSE, : Unable to import “XOG”.
+HTTP error 404.
+"
+"2","Warning: x = 'XSPA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""XSPA"", env = <environment>, verbose = FALSE, : Unable to import “XSPA”.
+HTTP error 404.
+"
+"2","Warning: x = 'Y', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""Y"", env = <environment>, verbose = FALSE, : Unable to import “Y”.
+HTTP error 404.
+"
+"2","Warning: x = 'YRCW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""YRCW"", env = <environment>, verbose = FALSE, : Unable to import “YRCW”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZAGG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZAGG"", env = <environment>, verbose = FALSE, : Unable to import “ZAGG”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZEN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZEN"", env = <environment>, verbose = FALSE, : Unable to import “ZEN”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZGNX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZGNX"", env = <environment>, verbose = FALSE, : Unable to import “ZGNX”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZIOP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZIOP"", env = <environment>, verbose = FALSE, : Unable to import “ZIOP”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZIXI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZIXI"", env = <environment>, verbose = FALSE, : Unable to import “ZIXI”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZN"", env = <environment>, verbose = FALSE, : Unable to import “ZN”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZNGA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZNGA"", env = <environment>, verbose = FALSE, : Unable to import “ZNGA”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZSAN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZSAN"", env = <environment>, verbose = FALSE, : Unable to import “ZSAN”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZYNE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZYNE"", env = <environment>, verbose = FALSE, : Unable to import “ZYNE”.
+HTTP error 404.
+"
+"2","Warning: x = 'UROV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""UROV"", env = <environment>, verbose = FALSE, : Unable to import “UROV”.
+HTTP error 404.
+"
+"2","Warning: x = 'UBA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""UBA"", env = <environment>, verbose = FALSE, : Unable to import “UBA”.
+HTTP error 404.
+"
+"2","Warning: x = 'ECOL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ECOL"", env = <environment>, verbose = FALSE, : Unable to import “ECOL”.
+HTTP error 404.
+"
+"2","Warning: x = 'USWS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""USWS"", env = <environment>, verbose = FALSE, : Unable to import “USWS”.
+HTTP error 404.
+"
+"2","Warning: x = 'USX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""USX"", env = <environment>, verbose = FALSE, : Unable to import “USX”.
+HTTP error 404.
+"
+"2","Warning: x = 'USAT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""USAT"", env = <environment>, verbose = FALSE, : Unable to import “USAT”.
+HTTP error 404.
+"
+"2","Warning: x = 'USAK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""USAK"", env = <environment>, verbose = FALSE, : Unable to import “USAK”.
+HTTP error 404.
+"
+"2","Warning: x = 'VAR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VAR"", env = <environment>, verbose = FALSE, : Unable to import “VAR”.
+HTTP error 404.
+"
+"2","Warning: x = 'VEC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VEC"", env = <environment>, verbose = FALSE, : Unable to import “VEC”.
+HTTP error 404.
+"
+"2","Warning: x = 'VNTR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VNTR"", env = <environment>, verbose = FALSE, : Unable to import “VNTR”.
+HTTP error 404.
+"
+"2","Warning: x = 'VNE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VNE"", env = <environment>, verbose = FALSE, : Unable to import “VNE”.
+HTTP error 404.
+"
+"2","Warning: x = 'VER', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VER"", env = <environment>, verbose = FALSE, : Unable to import “VER”.
+HTTP error 404.
+"
+"2","Warning: x = 'VRTV', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VRTV"", env = <environment>, verbose = FALSE, : Unable to import “VRTV”.
+HTTP error 404.
+"
+"2","Warning: x = 'VRML', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VRML"", env = <environment>, verbose = FALSE, : Unable to import “VRML”.
+HTTP error 404.
+"
+"2","Warning: x = 'VRS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VRS"", env = <environment>, verbose = FALSE, : Unable to import “VRS”.
+HTTP error 404.
+"
+"2","Warning: x = 'CBS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CBS"", env = <environment>, verbose = FALSE, : Unable to import “CBS”.
+HTTP error 404.
+"
+"2","Warning: x = 'VICL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VICL"", env = <environment>, verbose = FALSE, : Unable to import “VICL”.
+HTTP error 404.
+"
+"2","Warning: x = 'VRAY', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VRAY"", env = <environment>, verbose = FALSE, : Unable to import “VRAY”.
+attempt to set an attribute on NULL
+"
+"2","Warning: x = 'VRTU', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VRTU"", env = <environment>, verbose = FALSE, : Unable to import “VRTU”.
+HTTP error 404.
+"
+"2","Warning: x = 'VSI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VSI"", env = <environment>, verbose = FALSE, : Unable to import “VSI”.
+HTTP error 404.
+"
+"2","Warning: x = 'VSLR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VSLR"", env = <environment>, verbose = FALSE, : Unable to import “VSLR”.
+HTTP error 404.
+"
+"2","Warning: x = 'VVUS', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VVUS"", env = <environment>, verbose = FALSE, : Unable to import “VVUS”.
+HTTP error 404.
+"
+"2","Warning: x = 'VMW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VMW"", env = <environment>, verbose = FALSE, : Unable to import “VMW”.
+HTTP error 404.
+"
+"2","Warning: x = 'VCRA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VCRA"", env = <environment>, verbose = FALSE, : Unable to import “VCRA”.
+HTTP error 404.
+"
+"2","Warning: x = 'VISI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VISI"", env = <environment>, verbose = FALSE, : Unable to import “VISI”.
+HTTP error 404.
+"
+"2","Warning: x = 'VG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""VG"", env = <environment>, verbose = FALSE, : Unable to import “VG”.
+HTTP error 404.
+"
+"2","Warning: x = 'GRA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""GRA"", env = <environment>, verbose = FALSE, : Unable to import “GRA”.
+HTTP error 404.
+"
+"2","Warning: x = 'WBC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WBC"", env = <environment>, verbose = FALSE, : Unable to import “WBC”.
+HTTP error 404.
+"
+"2","Warning: x = 'WDR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WDR"", env = <environment>, verbose = FALSE, : Unable to import “WDR”.
+HTTP error 404.
+"
+"2","Warning: x = 'WTRH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WTRH"", env = <environment>, verbose = FALSE, : Unable to import “WTRH”.
+HTTP error 404.
+"
+"2","Warning: x = 'WPG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WPG"", env = <environment>, verbose = FALSE, : Unable to import “WPG”.
+HTTP error 404.
+"
+"2","Warning: x = 'WRE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WRE"", env = <environment>, verbose = FALSE, : Unable to import “WRE”.
+HTTP error 404.
+"
+"2","Warning: x = 'WSTG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WSTG"", env = <environment>, verbose = FALSE, : Unable to import “WSTG”.
+HTTP error 404.
+"
+"2","Warning: x = 'WRI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WRI"", env = <environment>, verbose = FALSE, : Unable to import “WRI”.
+HTTP error 404.
+"
+"2","Warning: x = 'WBT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WBT"", env = <environment>, verbose = FALSE, : Unable to import “WBT”.
+HTTP error 404.
+"
+"2","Warning: x = 'WCG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WCG"", env = <environment>, verbose = FALSE, : Unable to import “WCG”.
+HTTP error 404.
+"
+"2","Warning: x = 'WEBK', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WEBK"", env = <environment>, verbose = FALSE, : Unable to import “WEBK”.
+HTTP error 404.
+"
+"2","Warning: x = 'WAIR', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WAIR"", env = <environment>, verbose = FALSE, : Unable to import “WAIR”.
+HTTP error 404.
+"
+"2","Warning: x = 'WMC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WMC"", env = <environment>, verbose = FALSE, : Unable to import “WMC”.
+HTTP error 404.
+"
+"2","Warning: x = 'WLL', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WLL"", env = <environment>, verbose = FALSE, : Unable to import “WLL”.
+HTTP error 404.
+"
+"2","Warning: x = 'WLH', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WLH"", env = <environment>, verbose = FALSE, : Unable to import “WLH”.
+HTTP error 404.
+"
+"2","Warning: x = 'WLTW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WLTW"", env = <environment>, verbose = FALSE, : Unable to import “WLTW”.
+HTTP error 404.
+"
+"2","Warning: x = 'WTT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WTT"", env = <environment>, verbose = FALSE, : Unable to import “WTT”.
+HTTP error 404.
+"
+"2","Warning: x = 'WETF', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WETF"", env = <environment>, verbose = FALSE, : Unable to import “WETF”.
+HTTP error 404.
+"
+"2","Warning: x = 'INT', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""INT"", env = <environment>, verbose = FALSE, : Unable to import “INT”.
+HTTP error 404.
+"
+"2","Warning: x = 'WWE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WWE"", env = <environment>, verbose = FALSE, : Unable to import “WWE”.
+HTTP error 404.
+"
+"2","Warning: x = 'WPX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WPX"", env = <environment>, verbose = FALSE, : Unable to import “WPX”.
+HTTP error 404.
+"
+"2","Warning: x = 'WRTC', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WRTC"", env = <environment>, verbose = FALSE, : Unable to import “WRTC”.
+HTTP error 404.
+"
+"2","Warning: x = 'WMGI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WMGI"", env = <environment>, verbose = FALSE, : Unable to import “WMGI”.
+HTTP error 404.
+"
+"2","Warning: x = 'WYND', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""WYND"", env = <environment>, verbose = FALSE, : Unable to import “WYND”.
+HTTP error 404.
+"
+"2","Warning: x = 'XLNX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""XLNX"", env = <environment>, verbose = FALSE, : Unable to import “XLNX”.
+HTTP error 404.
+"
+"2","Warning: x = 'XSPA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""XSPA"", env = <environment>, verbose = FALSE, : Unable to import “XSPA”.
+HTTP error 404.
+"
+"2","Warning: x = 'YRCW', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""YRCW"", env = <environment>, verbose = FALSE, : Unable to import “YRCW”.
+HTTP error 404.
+"
+"2","Warning: x = 'YUMA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""YUMA"", env = <environment>, verbose = FALSE, : Unable to import “YUMA”.
+HTTP error 404.
+"
+"2","Warning: x = 'CTIB', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""CTIB"", env = <environment>, verbose = FALSE, : Unable to import “CTIB”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZFGN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZFGN"", env = <environment>, verbose = FALSE, : Unable to import “ZFGN”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZAGG', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZAGG"", env = <environment>, verbose = FALSE, : Unable to import “ZAGG”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZAYO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZAYO"", env = <environment>, verbose = FALSE, : Unable to import “ZAYO”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZEN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZEN"", env = <environment>, verbose = FALSE, : Unable to import “ZEN”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZN"", env = <environment>, verbose = FALSE, : Unable to import “ZN”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZIOP', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZIOP"", env = <environment>, verbose = FALSE, : Unable to import “ZIOP”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZIXI', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZIXI"", env = <environment>, verbose = FALSE, : Unable to import “ZIXI”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZGNX', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZGNX"", env = <environment>, verbose = FALSE, : Unable to import “ZGNX”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZSAN', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZSAN"", env = <environment>, verbose = FALSE, : Unable to import “ZSAN”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZVO', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZVO"", env = <environment>, verbose = FALSE, : Unable to import “ZVO”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZYNE', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZYNE"", env = <environment>, verbose = FALSE, : Unable to import “ZYNE”.
+HTTP error 404.
+"
+"2","Warning: x = 'ZNGA', get = 'stock.prices': Error in getSymbols.yahoo(Symbols = ""ZNGA"", env = <environment>, verbose = FALSE, : Unable to import “ZNGA”.
+HTTP error 404.
+"
+"1","[[1]]
+"

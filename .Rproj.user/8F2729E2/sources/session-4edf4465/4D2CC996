@@ -1,0 +1,26 @@
+{
+    "id": "4D2CC996",
+    "path": "~/Documents/finance/code/download.R",
+    "project_path": "code/download.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1711227030584.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "73,0",
+        "scrollLine": "54"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1711230147,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1711295479198,
+    "read_only": false,
+    "read_only_alternatives": []
+}
