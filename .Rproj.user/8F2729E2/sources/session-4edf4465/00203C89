@@ -3,9 +3,9 @@
     "path": "~/Documents/finance/code/download.qmd",
     "project_path": "code/download.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1570655840",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1711224006070.0,
     "source_on_save": false,
     "relative_order": 2,
@@ -16,11 +16,11 @@
         "scrollLine": "55"
     },
     "folds": "",
-    "lastKnownWriteTime": 1711166686,
+    "lastKnownWriteTime": 1711305442,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1711228046616,
+    "last_content_update": 1711305442866,
     "read_only": false,
     "read_only_alternatives": []
 }

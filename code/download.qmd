@@ -86,7 +86,7 @@ tickers |>
 ```{r, message=F}
 
 paths <- list.files("/Users/jackson/Documents/finance/data/stocks/", pattern = "[.]csv$", full.names = T)
-?list.files
+
 
 stock_data <- paths |>
   set_names(basename) |>

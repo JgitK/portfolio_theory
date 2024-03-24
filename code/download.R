@@ -59,3 +59,16 @@ stock_data <- paths |>
   set_names(basename) |>
   map(readr::read_csv) 
 
+# Get column (close) from CSV
+
+get_column_from_csv <- function(file, col_name) {
+  
+  tryCatch({
+    df <- read_csv(file)
+    column <- df[[col_name]]
+    return(column)
+  }, error = function(e) {
+    print("File Doesn't Exist")
+  })
+}
+

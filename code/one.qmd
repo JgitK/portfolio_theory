@@ -315,11 +315,17 @@ tickers_indus |>
 # Top Cumulative Returns by Industry
 ```{r}
 
-indus_df <- it_df |>
+ind_df <- indus_df |>
     select(Ticker) |>
     pull(Ticker)
   
-  indus_data <- stock_data_returns[indus_df]
+  indus_data <- stock_data_returns[ind_df]
+  
+  stock_data_returns[1]
+  stock_data_returns |> 
+    filter()
+  
+  stock_data_returns["ZEPP"]
   
   indus_data <- lapply(indus_data, function(df) {
   if (!is.null(df)) {
@@ -329,6 +335,7 @@ indus_df <- it_df |>
   }
 })
   combined_indus_data <- reduce(indus_data, bind_rows)
+  ?reduce
   
   combined_indus_data |>
   group_by(symbol) |>
