@@ -1,6 +1,5 @@
 library(tidyquant)
-library(readr)
-library(stringr)
+library(tidyverse)
 
 # Gets ticker from csv of stock names
 get_column_from_csv <- function(file, col_name) {
@@ -72,3 +71,10 @@ get_column_from_csv <- function(file, col_name) {
   })
 }
 
+# States path to read in downloaded data from
+paths <- list.files("/Users/jackson/Documents/finance/data/stocks/", pattern = "[.]csv$", full.names = T)
+
+# Reads in stock data
+stock_data <- paths |>
+  set_names(basename) |>
+  map(readr::read_csv) 

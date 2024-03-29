@@ -1,13 +1,5 @@
-library(readr)
+library(tidyverse)
 
-
-# States path to read in downloaded data from
-paths <- list.files("/Users/jackson/Documents/finance/data/stocks/", pattern = "[.]csv$", full.names = T)
-
-# Reads in stock data
-stock_data <- paths |>
-  set_names(basename) |>
-  map(readr::read_csv) 
 
 #stock_data_df <- map(names(stock_data), ~ str_remove(., "\\.csv"))
 
@@ -60,4 +52,7 @@ restate_df <- sec_df |> filter(Sector == "Real Estate")
 energy_df <- sec_df |> filter(Sector == "Energy")
 
 joined_data <- left_join(stock_data_returns_bound, sec_df, by = c("symbol" = "Ticker"))
+
+# Writes transformed csv to data folder
+write_csv(joined_data, "/Users/jackson/Documents/finance/data/combined_stock_data.csv")
 

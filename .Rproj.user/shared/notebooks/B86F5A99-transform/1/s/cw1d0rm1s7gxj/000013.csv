@@ -1,6 +1,0 @@
-"0","library(ichimoku)
-"
-"2","Warning: package ‘ichimoku’ was built under R version 4.2.3"
-"2","Error: package or namespace load failed for ‘ichimoku’ in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]):
- namespace ‘nanonext’ 0.13.2 is being loaded, but >= 0.13.3 is required
-"

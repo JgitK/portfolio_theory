@@ -1,8 +1,10 @@
 
-
-``` {r}
-
+```{r}
+library(dplyr)
+library(purrr)
+library(stringr)
 ```
+
 
 ``` {r}
 add_returns <- function(df) {
