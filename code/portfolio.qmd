@@ -1,0 +1,94 @@
+```{r}
+library(tidyverse)
+library(tidyquant)
+library(timetk)
+```
+
+```{r}
+
+sample_stocks <- top_stocks_by_sector |>
+  group_by(Sector) |>
+  sample_n(1) |>
+  ungroup() |>
+  select(symbol)
+
+weights <- runif(num_stocks)
+weights <- weights / sum(weights)
+```
+
+```{r}
+price_data <- tq_get(sample_stocks,
+                     from = '2014-03-01',
+                     to = '2024-03-01',
+                     get = 'stock.prices')
+```
+
+
+```{r}
+ret_data <- price_data |>
+  group_by(symbol) |>
+  tq_transmute(select = adjusted,
+               mutate_fun = periodReturn,
+               period = "daily",
+               col_rename = "ret")
+```
+
+```{r}
+port_ret <- ret_data |>
+  tq_portfolio(assets_col = symbol,
+               returns_col = ret,
+               weights = weights,
+               col_rename = 'port_ret',
+               geometric = FALSE)
+```
+
+```{r}
+port_ret |>
+  mutate(cr = cumprod(1 + port_ret)) |>
+  ggplot(aes(x = date, y = cr)) +
+  geom_line() +
+  labs(x = 'Date',
+       y = 'Cumulative Returns',
+       title = 'Portfolio Cumulative Returns') +
+  theme_bw() +
+  scale_y_continuous(breaks = seq(1,2,0.1)) +
+  scale_x_date(date_breaks = 'year',
+               date_labels = '%Y')
+```
+
+Average annual portfolio returns:
+```{r}
+average_annual_port_ret <- port_ret |>
+  tq_performance(Ra = port_ret,
+                 performance_fun = Return.annualized)
+
+cat("The average annual portfolio returns is ", round((average_annual_port_ret[[1]] * 100),2),"%", sep = "")
+```
+
+Volatility:
+```{r}
+daily_port_sd <- sd(port_ret$port_ret)
+annual_port_sd <- daily_port_sd * sqrt(252)
+
+cat("The annual portfolio volatility is", round((annual_port_sd),4))
+```
+
+Sharpe ratio (manual):
+```{r}
+sharpe_ratio_manually_rf_4 <- (average_annual_port_ret$AnnualizedReturn - 0.04) / annual_port_sd
+
+cat("The annual portfolio sharpe ratio calculated manually when risk free interest rate is at 4% is", round((sharpe_ratio_manually_rf_4),4))
+```
+
+Sharpe ratio (built-in):
+```{r}
+sharpe_ratio <- port_ret |>
+  tq_performance(Ra = port_ret,
+                 performance_fun = SharpeRatio.annualized,
+  Rf = 0.04/252)
+# |>
+#   .[[1]]
+
+cat("The annual portfolio sharpe ratio calculated using the tq_performance function is", round((sharpe_ratio),4))
+```
+
