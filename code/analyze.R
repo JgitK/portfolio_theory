@@ -64,6 +64,7 @@ test_stocks <- c("DTST", # IT
 )
 
 portfolio_close <- joined_data |> 
+  #filter(date >= "2020-02-05" & date <= "2024-03-15") |>
   filter(symbol %in% sample_stocks$symbol) |> 
   select(symbol, date, close, daily_return) 
 
@@ -75,7 +76,7 @@ portfolio_wider <- portfolio_close |>
   pivot_wider(names_from = symbol, values_from = close)
 
 portfolio_nodate <- joined_data |> # Correlation function won't work if date is a selected column
-  filter(symbol %in% test_stocks) |> 
+  filter(symbol %in% sample_stocks$symbol) |> 
   select(symbol, date, close) |>
   pivot_wider(names_from = symbol, values_from = close) |>
   select(-date)
@@ -120,6 +121,22 @@ weights <- weights / sum(weights)
 
 # PORTFOLIO RETURN USING MEAN RETURNS
 
+sample_stocks <- c("DTST", # IT
+                 "BLDR", #Industrial
+                 "ZYXI", # Health
+                 "NXE", # Energy
+                 "GRVY", # Comms
+                 "FRPT", # Staples
+                 "EBR", # Utilities
+                 "LMPX", # Discretionary
+                 "IIPR" # Real Estate
+)
+
+portfolio_close <- joined_data |> 
+  #filter(date >= "2020-02-05" & date <= "2024-03-15") |>
+  filter(symbol %in% sample_stocks$symbol) |> 
+  select(symbol, date, close, daily_return) 
+
 mean_returns <- portfolio_close |> 
   group_by(symbol) |> 
   summarize(mean_return = mean(daily_return, na.rm = TRUE)) |> 
@@ -129,10 +146,10 @@ portfolio_return <- sum(weights * mean_returns) * 252
 
 # Portfolio variance
 # Calculate covariance matrix of daily returns
+
 cov_matrix <- portfolio_close %>%
-  pivot_wider(names_from = symbol, values_from = daily_return) %>%
+  pivot_wider(names_from = symbol, values_from = daily_return, values_fill = 0) %>%
   select(-date) %>%
-  select(-close) %>%  # Remove the close column
   cov()
 
 portfolio_volatility <- sqrt(t(weights) %*% cov_matrix %*% weights) * sqrt(252)
